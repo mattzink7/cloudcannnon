@@ -1,11 +1,12 @@
 {{ define "main" }}
 <div class="sitemap-content block">
     <div class="wrapper-md">
+        <h1>Sitemap</h1>
         <div class="columns">
             <div class="col">
                 <h2>Pages</h2>
                 <ul>
-                    {{ range where .Site.Pages "Type" "not in" (slice "blog" "categories" "tags") }}
+                    {{ range where .Site.Pages "Type" "not in" (slice "resources" "categories" "tags") }}
                         {{ if not (in (slice "Thank You") .Title) }}
                         <li>
                             <a href="{{ .RelPermalink }}" title="{{ .Name }}">{{ .Name | markdownify }}</a>
@@ -15,10 +16,10 @@
                 </ul>
             </div>
             <div class="col">
-                <h2>Blog</h2>
+                <h2>Resources</h2>
                 <ul>
                     {{ $pages := .Site.RegularPages }}
-                    {{ $blog := where $pages "Type" "blog" }}
+                    {{ $blog := where $pages "Type" "resources" }}
                     {{ range $blog }}
                     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                     {{ end }}
