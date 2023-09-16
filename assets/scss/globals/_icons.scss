@@ -1,5 +1,5 @@
 .icon-sm {
-  display: block;
+  display: grid;
   inline-size: $ic-100;
   block-size: $ic-100;
 
@@ -10,7 +10,7 @@
 }
 
 .icon-md {
-  display: block;
+  display: grid;
   inline-size: $ic-200;
   block-size: $ic-200;
 
@@ -21,7 +21,7 @@
 }
 
 .icon-lg {
-  display: block;
+  display: grid;
   inline-size: $ic-300;
   block-size: $ic-300;
 
@@ -32,7 +32,7 @@
 }
 
 .icon-xl {
-  display: block;
+  display: grid;
   inline-size: $ic-400;
   block-size: $ic-400;
 
@@ -43,7 +43,7 @@
 }
 
 .icon-xxl {
-  display: block;
+  display: grid;
   inline-size: $ic-500;
   block-size: $ic-500;
 

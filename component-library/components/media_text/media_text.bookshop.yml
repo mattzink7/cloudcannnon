@@ -2,14 +2,24 @@
 spec:
   structures:
     - content_blocks
-  label: "Sample"
+  label: "Media & Text"
   description:
   icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  heading: Heading
+  body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui id ornare arcu odio."
+  image:
+    image_url:
+    image_alt:
+  button:
+    button_url: /contact/
+    button_text: Schedule a Demo
+    open_in_new_tab: false
+  background_color: gray
+  text_column_position: left
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

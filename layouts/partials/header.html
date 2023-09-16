@@ -13,7 +13,7 @@
         {{ end }}
       </a>
     </div>
-    <nav class="header__nav flex flex-justify-end" aria-label="primary navigation">
+    <nav class="header__nav flex flex-justify-start" aria-label="primary navigation">
       <ul class="header__nav-list">
         {{ $url := .RelPermalink }}
         {{ range .Site.Menus.main }}
@@ -40,6 +40,11 @@
           </li>
           {{ end }}    
         {{ end }}
+        <li class="header__nav-list-item">
+          <a class="btn btn--primary" href="/schedule-demo/" aria-label="Schedule a Demo">
+              Schedule a Demo
+          </a>
+        </li>
       </ul>
     </nav>
     <div id="header__mobile-nav" class="header__mobile-nav">

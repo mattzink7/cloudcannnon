@@ -1,0 +1,23 @@
+<section class="media-text-block {{ if eq .text_column_position "left" }}media-text-block--text-left{{ else }}media-text-block--text-right{{ end }} block bg-{{ .background_color }}" aria-labelledby="{{ .heading | urlize }}">
+    <div class="wrapper-lg columns gap-md">
+        <div class="media-text-block__content block margin-block-auto col">
+            <div class="wrapper-sm flow">
+                <h2 id="{{ .heading | urlize }}">{{ .heading }}</h2>
+                <p>{{ .body | markdownify }}</p>
+                <a class="btn btn--primary" href="{{ .button.button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button.button_text }}</a>
+            </div>
+        </div>
+        <div class="media-text-block__image col">
+            <picture>
+                <source sizes="100vw" srcset="" type="image/avif">
+        
+                <source sizes="100vw" srcset="" type="image/webp">
+        
+                <source sizes="100vw" srcset="" type="image/jpg">
+        
+                <img src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="1800" height="600">
+            </picture>
+        </div>
+    </div>
+</section>
+  

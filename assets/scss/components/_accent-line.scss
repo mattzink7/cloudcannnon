@@ -3,12 +3,26 @@
 
 }
 
-.accent-line::before {
+.accent-line::before,
+.accent-line::after {
     content: "";
     position: absolute;
+}
+
+.accent-line::before {
     top: 0;
     left: -20px;
     height: 100%;
     width: 3px;
     background: linear-gradient($secondary-color 0%, $primary-color 100%);
+}
+
+.accent-line::after {
+    bottom: 0;
+    left: -20px;
+    transform: translateX(-9px);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: $primary-color;
 }

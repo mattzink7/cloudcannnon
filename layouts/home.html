@@ -1,4 +1,21 @@
 {{ define "main" }}
 {{ partial "bookshop_bindings" `.Params.content_blocks` }}
 {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+<section aria-label="Featured Articles" class="block bg-white">
+    <div class="wrapper-lg">
+        <h2 class="text-align-center">Featured Resources</h2>
+        <div class="block-md">
+            {{ $pages := .Site.RegularPages }}
+            {{ $blog := where $pages "Type" "blog" }}
+            <ul class="grid-columns-3 max-width-none no-margin no-padding">
+                {{- range first 3 $blog -}}
+                {{ .Render "blog-card" }}
+                {{- end -}}
+            </ul>
+        </div>
+        <div class="text-align-center">
+            <a href="/blog/" class="btn btn--secondary">View All Posts</a>
+        </div>
+    </div>
+</section>
 {{ end }}
