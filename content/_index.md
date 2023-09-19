@@ -31,7 +31,7 @@ content_blocks:
       button_url: /services/
       button_text: Learn more about business sustainability
       open_in_new_tab: false
-    background_color: gray
+    background_color: black
     text_column_position: right
   - _bookshop_name: media_text
     heading: For Homeowners
@@ -45,4 +45,39 @@ content_blocks:
       open_in_new_tab: false
     background_color: white
     text_column_position: left
+  - _bookshop_name: blog_feed
+    heading: Our Latest Sustainability Resources
+    body: "Dive deep into the world of sustainable energy with the latest articles, trends, and breakthroughs. At Essentia, we believe in empowering our community with knowledge. Stay informed, stay sustainable, and join the conversation shaping our energy future."
+    button:
+      button_url: /blog/
+      button_text: View All Posts
+      open_in_new_tab: false
+    background_color: white
+  - _bookshop_name: numbers
+    heading: Driving Sustainable Businesses Forward
+    numbers:
+      - heading: 10+ Years in Business
+        body: Empowering businesses and homeowners with sustainable energy solutions since 2013.
+      - heading: 150,000+ Customers
+        body: A growing community of eco-conscious individuals and businesses trusting Essentia.
+      - heading: 27% Energy Saved
+        body: Helping our users significantly reduce their carbon footprint and energy bills.
+      - heading: $4.2 Million Saved
+        body: Translated energy savings into substantial financial benefits for our community.
+    background_color: gray
+  - _bookshop_name: double_cta
+    cta_left: 
+      heading: "Shape the Future of Energy with Us"
+      body: "At Essentia, we believe in the power of innovation and collaboration. Join a team of forward-thinkers, driven by the mission to revolutionize energy consumption and sustainability. If you're passionate about making a difference, we want you on board."
+      button:
+        button_url: /careers/
+        button_text: View Open Positions
+        open_in_new_tab: false
+    cta_right: 
+      heading: "Experience the Power of Essentia"
+      body: "Discover firsthand how Essentia can transform your energy consumption patterns and drive sustainability. Schedule a demo today and let us guide you through the features, benefits, and potential savings for your home or business."
+      button:
+        button_url: /schedule-demo/
+        button_text: Schedule a Demo
+        open_in_new_tab: false
 ---

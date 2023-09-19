@@ -14,7 +14,7 @@
     left: -20px;
     height: 100%;
     width: 3px;
-    background: linear-gradient($secondary-color 0%, $primary-color 100%);
+    background-image: linear-gradient($secondary-color 0%, $primary-color 100%);
 }
 
 .accent-line::after {

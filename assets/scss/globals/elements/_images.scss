@@ -43,3 +43,7 @@ img {
   block-size: 100%;
   object-fit: cover;
 }
+
+.rounded-image {
+  border-radius: $ic-300;
+}

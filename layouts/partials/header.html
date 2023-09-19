@@ -3,9 +3,9 @@
 <a class="screen-reader-skip-to-content" href="#footer" tabindex="0" aria-label="Skip to footer content">Skip to footer content</a>
 <header class="header">
   <div class="header__wrapper wrapper-lg">
-    <div class="header__logo">
+    <div class="header__logo-wrap">
       <span class="visually-hidden">Home</span>
-      <a class="brand-logo" href="{{ site.BaseURL }}">
+      <a class="header__logo" href="{{ site.BaseURL }}">
         {{ if .Site.Data.site_settings.logo }}
           <img src="{{ .Site.Data.site_settings.logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
         {{ else }}
@@ -23,10 +23,8 @@
                 <div class="header__sub-menu" role="navigation" id="submenu-{{ .Name | lower | urlize }}" aria-labelledby="menu-item-{{ .Name | lower | urlize }}">
                   <div class="header__sub-menu-inner">
                     <ul>
-                      {{ range sort .Children "value" "desc" }}
-                        <li class="header__sub-menu-item">
-                            <a class="header__sub-menu-link fs-100 no-decoration w-100 transform-x-8" href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}</a>
-                        </li>
+                      {{ range .Children }}
+                        {{ template "menu-node" .}}
                       {{ end }}
                     </ul>                            
                   </div>
@@ -86,3 +84,18 @@
     </button>
   </div>
 </header>
+
+{{ define "menu-node" }}
+  <li class="header__sub-menu-item list-style-none">
+    {{ if .HasChildren }}
+      <a class="header__sub-menu-link fs-100 no-decoration w-100 transform-x-8" href="{{.URL}}">{{ .Name }}</a>
+      <ul class="sub-menu__child-menu">
+        {{ range .Children }}
+          {{ template "menu-node" .}}
+        {{ end }}
+      </ul>
+    {{else}}
+      <a class="no-decoration transform-x-8" href="{{.URL}}">{{ .Name }}</a>
+    {{end}}
+  </li>
+{{ end }}

@@ -1,0 +1,14 @@
+.grid-columns-3 {
+    display: grid;
+    row-gap: $ic-500;
+  
+    @include breakpoint(sm) {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: $ic-300;
+    }
+  
+    @include breakpoint(md) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

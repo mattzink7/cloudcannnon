@@ -1,16 +1,15 @@
 ---
-title: Service 4
+title: Renewable Energy Transitioning
 menu:
   main:
-    parent: Services
-    weight: 1
+    parent: For Homeowners
 seo:
   page_title:
   meta_description:
   featured_image:
 hero: 
   enabled: true
-  heading: Service 4
+  heading: Services
   body: 
   button:
     enabled: true

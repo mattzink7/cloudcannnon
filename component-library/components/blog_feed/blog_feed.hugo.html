@@ -1,0 +1,16 @@
+<section aria-label="Featured Articles" class="block bg-{{ .background_color }}">
+    <div class="wrapper-lg flow">
+        <h2 class="text-align-center">{{ .heading }}</h2>
+        <p class="text-align-center margin-inline-auto">{{ .body | safeHTML }}</p>
+        <div class="block-md">
+            <ul class="grid-columns-3 max-width-none no-margin no-padding">
+                {{ range where site.RegularPages "Section" "blog" | first 3 }}
+                    {{ .Render "blog-card" }}
+                {{- end -}}
+            </ul>
+        </div>
+        <div class="text-align-center">
+            <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
+        </div>
+    </div>
+</section>

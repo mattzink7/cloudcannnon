@@ -1,9 +1,13 @@
 .social {
   margin: 1.5rem 0 0;
   padding: 0;
+}
 
-  li {
-    list-style-type: none;
-    margin: 0;
-  }
+.social li {
+  list-style-type: none;
+  margin: 0;
+}
+
+.social a {
+  background-image: none;
 }

@@ -1,16 +1,15 @@
 ---
-title: Service 1
+title: Personalized Energy Coaching
 menu:
   main:
-    parent: Services
-    weight: 1
+    parent: For Homeowners
 seo:
   page_title:
   meta_description:
   featured_image:
 hero: 
   enabled: true
-  heading: Service 1
+  heading: Services
   body: 
   button:
     enabled: true

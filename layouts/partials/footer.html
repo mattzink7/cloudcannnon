@@ -1,14 +1,16 @@
-<footer class="footer footer--three-column">
+<footer class="footer footer--three-column bg-gray">
   <div class="footer__columns wrapper-lg">
     <div class="block-sm grid gap-lg">
       <div class="grid-12 grid-4-md">
-        <a class="footer__logo" href="/">
-          {{ if .Site.Data.site_settings.logo }}
-            <img src="{{ .Site.Data.site_settings.logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
-          {{ else }}
-            {{ partialCached "svg-icons/logo.svg" . }}
-          {{ end }}
-        </a>
+        <div class="footer__logo-wrap">
+          <a class="footer__logo" href="/">
+            {{ if .Site.Data.site_settings.logo }}
+              <img src="{{ .Site.Data.site_settings.logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
+            {{ else }}
+              {{ partialCached "svg-icons/logo.svg" . }}
+            {{ end }}
+          </a>
+        </div>
         <address class="mt-2">
           <p class="flex flex-center">
             <span class="icon-sm icon-fill-primary">
@@ -74,7 +76,7 @@
     </div>
   </div>
   <div class="wrapper-lg">
-    <div class="footer__bottom border-top-gray">
+    <div class="footer__bottom border-top-white">
       <div class="footer__copyright flex flex-column flex-row-md flex-center">
         <p>© {{ dateFormat "2006" now }} {{ .Site.Data.site_settings.business_name }}</p>
         <ul class="footer__copyright-nav flex flex-justify-center">

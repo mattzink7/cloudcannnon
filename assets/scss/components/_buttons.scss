@@ -12,6 +12,7 @@
   transition: $transition;
   width: max-content;
   border-radius: 8px;
+  background-image: none;
 
   @include breakpoint(sm) {
     font-size: $ic--100;

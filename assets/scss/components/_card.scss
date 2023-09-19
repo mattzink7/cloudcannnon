@@ -1,23 +1,43 @@
 .card {
+  position: relative;
   list-style-type: none;
   border-bottom: 1px solid $primary-color;
   max-width: none;
-  padding-block: $ic-100;
   margin-block-start: 0;
-
-  article {
-    max-width: none;
-  }
+  border: 1px solid $black;
+  border-radius: $radius;
+  padding-block: $ic-300;
+  padding-inline: $ic-600;
 }
 
-.card__meta {
+
+.card__category {
+  position: relative;
+  z-index: 2;
+  font-size: $ic--100;
+}
+
+.card a::after {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
 }
 
-.card__img {
-  block-size: 250px;
-  inline-size: 100%;
-  object-fit: cover;
+.card .accent-line {
+  position: initial;
+}
+
+.card .accent-line::before {
+  top: 35px;
+  left: 25px;
+  height: 80%;
+}
+
+.card .accent-line::after {
+  bottom: 25px;
+  left: 25px;
 }

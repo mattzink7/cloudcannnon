@@ -3,18 +3,12 @@
 //   color: $white;
 // }
 
-.footer a {
-  color: $primary-color;
-  text-decoration: none;
+// .footer a {
+//   color: $white;
+//   text-decoration: none;
+// }
 
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-  }
-}
-
-.footer__logo {
-  display: block;
+.footer__logo-wrap {
   max-width: 200px;
 }
 
@@ -60,6 +54,9 @@
   }
 }
 
+.footer__copyright a {
+  background-image: none;
+}
 
 .footer .contact-form input {
   margin-bottom: 0;

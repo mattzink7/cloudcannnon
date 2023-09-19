@@ -1,16 +1,15 @@
 ---
-title: Service 3
+title: Green Certification Consulting
 menu:
   main:
-    parent: Services
-    weight: 1
+    parent: For Business
 seo:
   page_title:
   meta_description:
   featured_image:
 hero: 
   enabled: true
-  heading: Service 3
+  heading: Services
   body: 
   button:
     enabled: true

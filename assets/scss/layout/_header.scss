@@ -23,7 +23,6 @@
   overflow: hidden;
   transition: $transition;
   background-color: $white;
-  border-bottom: 2px solid $primary-color;
   overflow: hidden;
   max-height: 0;
   transition: max-height .5s ease-in-out;
@@ -50,6 +49,7 @@
   width: 100%;
   transition: color $transition;
   font-family: $secondary-font;
+  background-image: none;
 
   &:hover,
   &:focus {
@@ -147,7 +147,7 @@
   }
 }
 
-.header__logo {
+.header__logo-wrap {
   max-width: clamp(150px, 20vw, 200px);
 }
 
@@ -253,7 +253,8 @@
     font-family: $secondary-font;
     font-size: 1.2rem;
     transition: $transition;
-    
+    background-image: none;
+
     &:hover,
     &:focus {
       color: $primary-color;
@@ -329,6 +330,7 @@
   display: block;
   color: $black;
   font-family: $secondary-font;
+  background-image: none;
 }
 
 .nav-open {
