@@ -1,5 +1,5 @@
 ---
-title: Green Certification Consulting
+title: Customizable Energy Dashboard
 menu:
   main:
     parent: For Business

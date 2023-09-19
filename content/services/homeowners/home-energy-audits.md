@@ -1,5 +1,5 @@
 ---
-title: Home Energy Analysis
+title: Home Energy Audits
 menu:
   main:
     parent: For Homeowners
