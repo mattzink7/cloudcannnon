@@ -11,7 +11,7 @@
   text-decoration: none;
   transition: $transition;
   width: max-content;
-  border-radius: 8px;
+  border-radius: $radius;
   background-image: none;
 
   @include breakpoint(sm) {
@@ -25,14 +25,32 @@
 }
 
 .btn--primary {
-  color: $white;
-  background-color: $primary-color;
+  color: $black;
+  // background-color: $primary-color;
   transition: $transition;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: linear-gradient(to right,$primary-color 0%,$secondary-color 15%,$secondary-color 85%,$primary-color 100%);
+    background-size: 300% 100%;
+    border-radius: $radius;
+    transition: $transition;
+  }
 
   &:hover,
   &:focus {
-    color: $white;
-    background-color: $secondary-color;
+    // color: $white;
+    // background-color: $secondary-color;
+
+    &::before {
+      background-position: 100% 0;
+    }
   }
 }
 

@@ -21,6 +21,10 @@ content_blocks:
     image_3:
       image_url: /uploads/grass-1.jpg
       image_alt: Morning dew on grass
+    button: 
+      button_url: /schedule-demo/
+      button_text: Schedule A Demo
+      open_in_new_tab: false
   - _bookshop_name: media_text
     heading: For Business
     body: "In today's competitive landscape, sustainable analytics provides businesses a strategic edge. With Essentia, companies can uncover hidden inefficiencies, adapt to evolving energy trends, and significantly reduce operational costs. Transform your energy data into tangible savings and sustainable solutions."
@@ -29,7 +33,7 @@ content_blocks:
       image_alt: Trees with sunshine shining through branches
     button:
       button_url: /services/
-      button_text: Learn more about business sustainability
+      button_text: sustainability for business
       open_in_new_tab: false
     background_color: black
     text_column_position: right
@@ -41,7 +45,7 @@ content_blocks:
       image_alt: Trees with sunshine shining through branches
     button:
       button_url: /services/
-      button_text: Learn more about home sustainability
+      button_text: sustainability for homeowners
       open_in_new_tab: false
     background_color: white
     text_column_position: left

@@ -1,0 +1,15 @@
+<section class="hero--simple block" aria-labelledby="hero-heading">
+    <div class="wrapper-lg columns gap-md">
+        <div class="hero__content col margin-block-auto">
+          <div class="accent-line wrapper-sm flow">
+            <h1 class="no-margin" id="hero-heading">{{ .heading }}</h1>
+            <p>{{ .body | safeHTML }}</p>
+            <a class="btn btn--primary" href="{{ .button.button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button.button_text }}</a>
+          </div>
+        </div>
+        <div class="hero__image col">
+          <img class="rounded-image" src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="1800" height="600">
+          {{ partialCached "svg-icons/circles-background.svg" . }}
+        </div>
+    </div>
+</section>

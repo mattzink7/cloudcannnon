@@ -8,10 +8,6 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 2rem;
   position: relative;
-  // background-image: url("/uploads/background-circles-1.jpg");
-  // background-size: contain;
-  // background-repeat: no-repeat;
-  // background-position: center;
 }
 
 .hero--split-image-grid .hero__image-grid img {
@@ -39,4 +35,26 @@
   z-index: -1;
   height: 100%;
   width: 100%;
+}
+
+.hero--simple .hero__image {
+  position: relative;
+}
+
+.hero--simple .hero__image img {
+  position: relative;
+  z-index: 2;
+  aspect-ratio: 4/2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero--simple .hero__image svg {
+  position: absolute;
+  top: 50px;
+  right: -50px;
+  width: auto;
+  height: 100%;
+  z-index: 1;
 }

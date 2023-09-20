@@ -1,9 +1,4 @@
 {{ define "main" }}
-{{ partial "hero" . }}
-{{ partial "breadcrumbs" . }}
-<div class="block">
-    <div class="wrapper-sm flow">
-        {{ .Content  }}
-    </div>
-</div>
+{{ partial "bookshop_bindings" `.Params.content_blocks` }}
+{{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
 {{ end }}

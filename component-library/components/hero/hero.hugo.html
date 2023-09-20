@@ -1,10 +1,10 @@
 <section class="hero--split-image-grid block" aria-labelledby="hero-heading">
-    <div class="wrapper-lg columns">
+    <div class="wrapper-lg columns gap-md">
         <div class="hero__content col">
           <div class="accent-line wrapper-sm flow">
             <h1 class="no-margin" id="hero-heading">{{ .heading }}</h1>
             <div class="flow">{{ .body }}</div>
-            <a class="btn btn--primary" href="/schedule-demo/">Schedule a Demo</a>
+            <a class="btn btn--primary" href="{{ .button.button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button.button_text }}</a>
           </div>
         </div>
         <div class="hero__image-grid col">
