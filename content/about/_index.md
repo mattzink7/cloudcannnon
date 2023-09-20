@@ -45,6 +45,38 @@ content_blocks:
       open_in_new_tab:
     background_color: black
     text_column_position: right
+  - _bookshop_name: columns
+    heading: Shaping a Sustainable Future
+    columns:
+      - _bookshop_name: icon-card
+        image:
+          image_url: /uploads/grass-1.jpg
+          image_alt:
+        heading: Empower Through Technology
+        body: >-
+          We harness the power of cutting-edge software to provide intuitive and
+          actionable insights, enabling businesses and homeowners to understand
+          and optimize their energy consumption effortlessly.
+      - _bookshop_name: icon-card
+        image:
+          image_url: /uploads/grass-1.jpg
+          image_alt:
+        heading: Advocate for Sustainability
+        body: >-
+          Beyond solutions, we champion the cause of sustainability, advocating
+          for responsible energy consumption and fostering a culture of
+          eco-conscious decision-making.
+      - _bookshop_name: icon-card
+        image:
+          image_url: /uploads/grass-1.jpg
+          image_alt:
+        heading: Foster Community Growth
+        body: >-
+          We believe that collective change stems from individual action. Our
+          mission extends beyond software, as we engage, educate, and grow with
+          our community, driving forward towards a shared vision of a greener
+          world.
+    background_color:
   - _bookshop_name: staff-feed
     heading: Meet Our Sustainability Experts
     body: >-
