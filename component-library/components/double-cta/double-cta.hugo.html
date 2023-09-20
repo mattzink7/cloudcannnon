@@ -3,12 +3,16 @@
         <div class="accent-line col flow">
             <h2>{{ .cta_left.heading }}</h2>
             <p>{{ .cta_left.body | markdownify }}</p>
-            <a class="btn btn--primary" href="{{ .cta_left.button.button_url }}" {{ if .cta_left.open_in_new_tab }}target="_blank"{{ end }}>{{ .cta_left.button.button_text }}</a>
+            {{ if .cta_left.button.button_url }}
+                <a class="btn btn--primary" href="{{ .cta_left.button.button_url }}" {{ if .cta_left.open_in_new_tab }}target="_blank"{{ end }}>{{ .cta_left.button.button_text }}</a>
+            {{ end }}
         </div>
         <div class="accent-line col flow">
             <h2>{{ .cta_right.heading }}</h2>
             <p>{{ .cta_right.body | markdownify }}</p>
-            <a class="btn btn--primary" href="{{ .cta_right.button.button_url }}" {{ if .cta_right.open_in_new_tab }}target="_blank"{{ end }}>{{ .cta_right.button.button_text }}</a>
+            {{ if .cta_right.button.button_url }}
+                <a class="btn btn--primary" href="{{ .cta_right.button.button_url }}" {{ if .cta_right.open_in_new_tab }}target="_blank"{{ end }}>{{ .cta_right.button.button_text }}</a>
+            {{ end }}
         </div>
     </div>
 </section>

@@ -4,7 +4,7 @@
             <div class="wrapper-sm flow">
                 <h2 id="{{ .heading | urlize }}">{{ .heading }}</h2>
                 <p>{{ .body | markdownify }}</p>
-                {{ if .button }}
+                {{ if .button.button_url }}
                     <a class="btn btn--primary" href="{{ .button.button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button.button_text }}</a>
                 {{ end }}
             </div>

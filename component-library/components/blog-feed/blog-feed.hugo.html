@@ -1,3 +1,25 @@
+{{ if site.Params.env_bookshop_live }}
+<section class="block bg-gray">
+    <div class="wrapper-lg flow">
+        <h2 class="text-align-center">Our Recent Posts</h2>
+        <div class="block-md">
+            <ul class="grid-columns-3 max-width-none no-margin no-padding">
+                {{ range seq 3 }}
+                <li class="card">
+                    <div class="accent-line flow">
+                        <a class="card__category" href="#" aria-label="View all posts">Example</a>
+                        <h3 class="card__title h6"><a href="#" class="card__link">Blog Post Title</a></h3>
+                        <p class="card__summary font-size-xs">
+                            Your actual blog posts will be displayed on the page rather than these example cards which cannot be edited here.
+                        </p>
+                    </div>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>
+{{ else }}
 <section class="block bg-{{ .background_color }}" aria-label="Featured Articles">
     <div class="wrapper-lg flow">
         <h2 class="text-align-center">{{ .heading }}</h2>
@@ -14,3 +36,4 @@
         </div>
     </div>
 </section>
+{{ end }}

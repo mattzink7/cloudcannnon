@@ -4,7 +4,9 @@
           <div class="accent-line wrapper-sm flow">
             <h1 class="no-margin" id="hero-heading">{{ .heading }}</h1>
             <p>{{ .body | safeHTML }}</p>
-            <a class="btn btn--primary" href="{{ .button.button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button.button_text }}</a>
+            {{ if .button.button_url }}
+                <a class="btn btn--primary" href="{{ .button.button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button.button_text }}</a>
+            {{ end }}
           </div>
         </div>
         <div class="hero__image col">
