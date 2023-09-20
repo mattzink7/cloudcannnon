@@ -115,35 +115,19 @@ content_blocks:
         button_text: Schedule a Demo
         open_in_new_tab: false
   - _bookshop_name: columns
-    heading:
+    heading: Section Heading
     columns:
-      - _bookshop_name: hero
-        heading: Test Hero Heading
-        body: Test Hero Body
-        image_1:
-          image_url:
-          image_alt:
-        image_2:
-          image_url:
-          image_alt:
-        image_3:
-          image_url:
-          image_alt:
-        button:
-          button_url:
-          button_text:
-          open_in_new_tab: false
-      - _bookshop_name: media_text
-        heading: test heading
-        body: test body
-        image:
-          image_url:
-          image_alt:
-        button:
-          button_url:
-          button_text:
-          open_in_new_tab: false
-        background_color: gray
-        text_column_position: left
-    background_color:
+      - _bookshop_name: content
+        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
+      - _bookshop_name: content
+        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
+      - _bookshop_name: content
+        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
+      - _bookshop_name: content
+        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
+      - _bookshop_name: content
+        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
+      - _bookshop_name: content
+        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
+    background_color: gray
 ---
