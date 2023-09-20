@@ -2,8 +2,8 @@
     <div class="staff-card__image">
         <img src="{{ .Params.headshot }}" alt="">
     </div>
-    <div class="staff-card__content">
-        <h3 class="h6"><a href="{{ .Permalink }}" class="card__link">{{ .Title }}</a></h3>
+    <div class="staff-card__content text-align-center">
+        <h3 class="no-margin"><a href="{{ .Permalink }}" class="card__link">{{ .Title }}</a></h3>
         <p class="staff-card__job-title">{{ .Params.job_title }}</p>
     </div>
 </li>

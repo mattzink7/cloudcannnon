@@ -19,12 +19,18 @@ content_blocks:
       button_url: /schedule-demo/
       button_text: Schedule A Demo
       open_in_new_tab: false
-  - _bookshop_name: columns
+  - _bookshop_name: media-text
     heading: Discover Essentia (add colon here) Champions of Sustainable Energy
-    columns:
-      - _bookshop_name: content
-        body: <p>Founded in 2013, Essentia has swiftly emerged as a leader in the sustainable energy sector. Our ethos is simple, merge cutting-edge technology with deep-rooted environmental values. We're more than just a company; we're a collective of innovators, dreamers, and doers, steadfast in our mission to revolutionize the way businesses and homeowners consume energy. From our initial idea to the myriad of solutions we offer today, every step we've taken has been in pursuit of a greener, brighter future for all.</p>
+    body: "Founded in 2013, Essentia has swiftly emerged as a leader in the sustainable energy sector. Our ethos is simple, merge cutting-edge technology with deep-rooted environmental values. We're more than just a company; we're a collective of innovators, dreamers, and doers, steadfast in our mission to revolutionize the way businesses and homeowners consume energy. From our initial idea to the myriad of solutions we offer today, every step we've taken has been in pursuit of a greener, brighter future for all."
+    image:
+      image_url: /uploads/plant-in-hands-1.jpg
+      image_alt: Small plant in hands
+    button:
+      button_url:
+      button_text:
+      open_in_new_tab:
     background_color: black
+    text_column_position: right
   - _bookshop_name: staff-feed
     heading: Meet Our Sustainability Experts
     body: "At Essentia, each member brings a unique blend of expertise, united by a common goal: to revolutionize the world of sustainable energy. From our pioneering co-founders to our innovative engineers and strategists, every individual plays a crucial role in shaping our journey."

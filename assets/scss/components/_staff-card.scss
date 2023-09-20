@@ -34,6 +34,10 @@
   padding: $ic-400;
 }
 
+.staff-card a {
+  background-image: none;
+}
+
 .staff-card a::after {
   content: "";
   position: absolute;
