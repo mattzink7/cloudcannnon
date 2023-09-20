@@ -169,3 +169,12 @@ p {
 address {
   font-style: normal;
 }
+
+.text-style-slub {
+  font-size: $ic-100;
+  opacity: .8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  max-width: none;
+}

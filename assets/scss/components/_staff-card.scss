@@ -31,7 +31,8 @@
 }
 
 .staff-card__content {
-  padding: $ic-400;
+  padding-block: $ic-400;
+  padding-inline: $ic-200;
 }
 
 .staff-card a {
@@ -46,12 +47,4 @@
   height: 100%;
   width: 100%;
   z-index: 1;
-}
-
-.staff-card__job-title {
-  font-size: $ic-100;
-  font-weight: 700;
-  opacity: .7;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }

@@ -1,4 +1,4 @@
-.blog-hero {
+.hero--blog {
   overflow: visible;
 
   h1 {
@@ -17,26 +17,24 @@
 }
 
 .back {
-  color: $primary-color;
-  transition: $transition;
-
-  svg {
-    width: $ic-200;
-    height: $ic-200;
-    stroke: $primary-color;
-    position: relative;
-    top: 4px;
-    transition: $transition;
-  }
+  background-image: none;
 
   &:hover, 
   &:focus {
-    color: $secondary-color;
-
     svg {
-      stroke: $secondary-color;
-      transform: translateX(-6px);
+      animation: animate-arrow 1s infinite;
     }
+  }
+}
+
+@keyframes animate-arrow {
+  0%, 100% {
+      transform: translateX(0%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+      transform: translateX(-25%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
 

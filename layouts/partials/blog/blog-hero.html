@@ -1,22 +1,20 @@
 {{ $heroClass := lower .Page.Title }}
-<div class="blog-hero hero--{{ anchorize $heroClass }} block bg-gray">
+<div class="hero--blog block bg-black">
   <div class="wrapper-lg columns gap-lg">
       <div class="col">
-        <div class="flow">
-          <a href="/blog/" class="back no-decoration">{{ partialCached "svg-icons/chevron-left.svg" . }} Back to all posts</a>
-          <h1>{{ .Title | markdownify }}</h1>
-          <div class="columns-two-thirds-left gap-sm">
-            <div class="col flex flex-wrap gap-sm">
-              {{ if .Params.Categories }}
-                {{ range (.GetTerms "categories") }}
-                  <a href="{{ .Permalink }}" class="btn btn--primary btn--category" aria-label="View all {{ .Page.Title }} posts">{{ .LinkTitle }}</a>
-                {{ end }}
+        <a href="/about/" class="back flex flex-center"><div class="icon-md icon-stroke-primary">{{ partialCached "svg-icons/chevron-left.svg" . }}</div> Back to all staff</a>
+        <h1>{{ .Title | markdownify }}</h1>
+        <div class="columns flex-justify-between gap-sm">
+          <div class="col flex flex-wrap gap-sm">
+            {{ if .Params.Categories }}
+              {{ range (.GetTerms "categories") }}
+                <a href="{{ .Permalink }}" class="btn btn--primary btn--category" aria-label="View all {{ .Page.Title }} posts">{{ .LinkTitle }}</a>
               {{ end }}
-            </div>
-            <div class="reading-time col flex">
-              <div class="icon-md">{{ partialCached "svg-icons/clock.svg" . }}</div>
-              <div class="font-size-xs"> {{ .ReadingTime }} min read</div>
-            </div>
+            {{ end }}
+          </div>
+          <div class="reading-time col flex flex-center flex-justify-end">
+            <div class="icon-md">{{ partialCached "svg-icons/clock.svg" . }}</div>
+            <div class="font-size-xs"> {{ .ReadingTime }} min read</div>
           </div>
         </div>
       </div>

@@ -1,18 +1,45 @@
+.decorative-image {
+    position: relative;
+}
+
+.decorative-image__image {
+    position: relative;
+    z-index: 2;
+    aspect-ratio: 3/2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.decorative-image .background-circles {
+    top: 50px;
+    right: -50px;
+}
+
 .background-circles {
     position: absolute;
-    top: 0;
     z-index: 1;
     width: auto;
     height: 100%;
 }
   
 .hero .background-circles {
+    top: 0;
     left: 50%;
     z-index: -1;
     transform: translateX(-50%);
 }
-  
-.hero--simple .background-circles {
-    top: 50px;
-    right: -50px;
+
+.staff-image {
+    aspect-ratio: 1/1;
+    max-width: 500px;
+    margin-left: auto;
+
+    @include breakpoint(md) {
+        margin-top: -250px;
+    }
+}
+
+.parent-page-about:not(.page-about) .decorative-image .background-circles {
+    top: 75px;
 }

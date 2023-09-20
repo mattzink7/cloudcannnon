@@ -9,17 +9,9 @@
                 {{ end }}
             </div>
         </div>
-        <div class="media-text-block__image col">
-            <picture>
-                <source sizes="100vw" srcset="" type="image/avif">
-        
-                <source sizes="100vw" srcset="" type="image/webp">
-        
-                <source sizes="100vw" srcset="" type="image/jpg">
-        
-                <img class="rounded-image" src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="1800" height="600">
-            </picture>
-            <img class="background-circles" src="/uploads/circles-background-square.svg" alt="">
+        <div class="decorative-image col">
+            <img class="decorative-image__image rounded-image" src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="1200" height="800">
+            <img class="decorative-image__circles background-circles" src="/uploads/circles-background-square.svg" alt="">
         </div>
     </div>
 </section>
