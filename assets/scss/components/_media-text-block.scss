@@ -2,21 +2,13 @@
     position: relative;
 }
 
-.media-text-block__image img {
+.media-text-block__image img:not(.background-circles) {
     position: relative;
     z-index: 2;
     aspect-ratio: 4/2;
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.media-text-block__image svg {
-    position: absolute;
-    top: 50px;
-    width: auto;
-    height: 100%;
-    z-index: 1;
 }
 
 
@@ -28,11 +20,16 @@
     order: 1;
 }
 
-.media-text-block--text-right .media-text-block__image svg {
+.media-text-block--text-left .background-circles,
+.media-text-block--text-right .background-circles {
+    top: 50px;
+}
+
+.media-text-block--text-right .background-circles {
     left: -50px;
 }
 
-.media-text-block--text-left .media-text-block__image svg {
+.media-text-block--text-left .background-circles {
     right: -50px;
 }
 

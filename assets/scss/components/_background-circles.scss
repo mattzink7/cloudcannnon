@@ -1,0 +1,18 @@
+.background-circles {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: auto;
+    height: 100%;
+}
+  
+.hero .background-circles {
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+}
+  
+.hero--simple .background-circles {
+    top: 50px;
+    right: -50px;
+}

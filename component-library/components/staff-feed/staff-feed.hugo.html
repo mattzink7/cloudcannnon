@@ -1,0 +1,13 @@
+<section class="block bg-{{ .background_color }}" aria-label="Featured Articles">
+    <div class="wrapper-md flow">
+        <h2 class="text-align-center max-width-none">{{ .heading }}</h2>
+        <p class="text-align-center margin-inline-auto">{{ .body | safeHTML }}</p>
+        <div class="block-md">
+            <ul class="grid-columns-3 max-width-none no-margin no-padding">
+                {{ range where site.RegularPages "Section" "about" }}
+                    {{ .Render "staff-card" }}
+                {{- end -}}
+            </ul>
+        </div>
+    </div>
+</section>

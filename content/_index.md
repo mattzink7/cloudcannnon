@@ -25,7 +25,7 @@ content_blocks:
       button_url: /schedule-demo/
       button_text: Schedule A Demo
       open_in_new_tab: false
-  - _bookshop_name: media_text
+  - _bookshop_name: media-text
     heading: For Business
     body: >-
       In today's competitive landscape, sustainable analytics provides
@@ -42,7 +42,7 @@ content_blocks:
       open_in_new_tab: false
     background_color: black
     text_column_position: right
-  - _bookshop_name: media_text
+  - _bookshop_name: media-text
     heading: For Homeowners
     body: >-
       Every household has the potential to be more energy-efficient and
@@ -59,7 +59,7 @@ content_blocks:
       open_in_new_tab: false
     background_color: white
     text_column_position: left
-  - _bookshop_name: blog_feed
+  - _bookshop_name: blog-feed
     heading: Our Latest Sustainability Resources
     body: >-
       Dive deep into the world of sustainable energy with the latest articles,
@@ -91,7 +91,7 @@ content_blocks:
           Translated energy savings into substantial financial benefits for our
           community.
     background_color: gray
-  - _bookshop_name: double_cta
+  - _bookshop_name: double-cta
     cta_left:
       heading: Shape the Future of Energy with Us
       body: >-
@@ -114,20 +114,4 @@ content_blocks:
         button_url: /schedule-demo/
         button_text: Schedule a Demo
         open_in_new_tab: false
-  - _bookshop_name: columns
-    heading: Section Heading
-    columns:
-      - _bookshop_name: content
-        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
-      - _bookshop_name: content
-        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
-      - _bookshop_name: content
-        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
-      - _bookshop_name: content
-        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
-      - _bookshop_name: content
-        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
-      - _bookshop_name: content
-        content_html: <h2>Test Content Heading</h2><p>Some test body content here</p>
-    background_color: gray
 ---

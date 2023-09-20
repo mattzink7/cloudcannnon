@@ -9,7 +9,7 @@ seo:
   title:
   description:
 content_blocks:
-  - _bookshop_name: hero_simple
+  - _bookshop_name: hero-simple
     heading: Empowering businesses and homeowners with sustainable energy solutions since 2013.
     body: "Essentia stands at the forefront of energy optimization, using innovative technology to make energy consumption more efficient and eco-friendly. Our dedicated team works relentlessly, driven by a vision of a sustainable future where technology and nature harmoniously coexist."
     image:
@@ -19,37 +19,15 @@ content_blocks:
       button_url: /schedule-demo/
       button_text: Schedule A Demo
       open_in_new_tab: false
-  - _bookshop_name: media_text
-    heading: For Business
-    body: "In today's competitive landscape, sustainable analytics provides businesses a strategic edge. With Essentia, companies can uncover hidden inefficiencies, adapt to evolving energy trends, and significantly reduce operational costs. Transform your energy data into tangible savings and sustainable solutions."
-    image:
-      image_url: /uploads/business-1.jpg
-      image_alt: Trees with sunshine shining through branches
-    button:
-      button_url: /services/
-      button_text: sustainability for business
-      open_in_new_tab: false
+  - _bookshop_name: columns
+    heading: Discover Essentia (add colon here) Champions of Sustainable Energy
+    columns:
+      - _bookshop_name: content
+        body: <p>Founded in 2013, Essentia has swiftly emerged as a leader in the sustainable energy sector. Our ethos is simple, merge cutting-edge technology with deep-rooted environmental values. We're more than just a company; we're a collective of innovators, dreamers, and doers, steadfast in our mission to revolutionize the way businesses and homeowners consume energy. From our initial idea to the myriad of solutions we offer today, every step we've taken has been in pursuit of a greener, brighter future for all.</p>
     background_color: black
-    text_column_position: right
-  - _bookshop_name: media_text
-    heading: For Homeowners
-    body: "Every household has the potential to be more energy-efficient and environmentally conscious. With Essentia's insights, homeowners gain a clear understanding of their energy usage, empowering them to make smarter choices, reduce monthly bills, and contribute to a greener planet. Discover the harmony of savings and sustainability right at home."
-    image:
-      image_url: /uploads/homeowners-2.jpg
-      image_alt: Trees with sunshine shining through branches
-    button:
-      button_url: /services/
-      button_text: sustainability for homeowners
-      open_in_new_tab: false
-    background_color: white
-    text_column_position: left
-  - _bookshop_name: blog_feed
-    heading: Our Latest Sustainability Resources
-    body: "Dive deep into the world of sustainable energy with the latest articles, trends, and breakthroughs. At Essentia, we believe in empowering our community with knowledge. Stay informed, stay sustainable, and join the conversation shaping our energy future."
-    button:
-      button_url: /blog/
-      button_text: View All Posts
-      open_in_new_tab: false
+  - _bookshop_name: staff-feed
+    heading: Meet Our Sustainability Experts
+    body: "At Essentia, each member brings a unique blend of expertise, united by a common goal: to revolutionize the world of sustainable energy. From our pioneering co-founders to our innovative engineers and strategists, every individual plays a crucial role in shaping our journey."
     background_color: white
   - _bookshop_name: numbers
     heading: Driving Sustainable Businesses Forward
@@ -63,7 +41,7 @@ content_blocks:
       - heading: $4.2 Million Saved
         body: Translated energy savings into substantial financial benefits for our community.
     background_color: gray
-  - _bookshop_name: double_cta
+  - _bookshop_name: double-cta
     cta_left: 
       heading: "Shape the Future of Energy with Us"
       body: "At Essentia, we believe in the power of innovation and collaboration. Join a team of forward-thinkers, driven by the mission to revolutionize energy consumption and sustainability. If you're passionate about making a difference, we want you on board."

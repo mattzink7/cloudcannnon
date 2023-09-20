@@ -1,6 +1,6 @@
-<section class="hero--split-image-grid block" aria-labelledby="hero-heading">
+<section class="hero block" aria-labelledby="hero-heading">
     <div class="wrapper-lg columns gap-md">
-        <div class="hero__content col">
+        <div class="hero__content col margin-block-auto">
           <div class="accent-line wrapper-sm flow">
             <h1 class="no-margin" id="hero-heading">{{ .heading }}</h1>
             <div class="flow">{{ .body }}</div>
@@ -11,7 +11,7 @@
           <img class="hero__image-grid-1 rounded-image" src="{{ .image_1.image_url }}" alt="{{ .image_1.image_alt }}" width="1800" height="600">
           <img class="hero__image-grid-2 rounded-image" src="{{ .image_2.image_url }}" alt="{{ .image_2.image_alt }}" width="1800" height="600">
           <img class="hero__image-grid-3 rounded-image" src="{{ .image_3.image_url }}" alt="{{ .image_3.image_alt }}" width="1800" height="600">
-          {{ partial "svg-icons/circles-background.svg" . }}
+          <img class="background-circles" src="/uploads/circles-background.svg" alt="">
         </div>
     </div>
 </section>
