@@ -1,3 +1,26 @@
+{{ if site.Params.env_bookshop_live }}
+<section class="block bg-gray">
+    <div class="wrapper-lg flow">
+        <h2 class="text-align-center max-width-none">Our Staff</h2>
+        <p class="text-align-center margin-inline-auto">This is just a placeholder to show you what your staff feed will look like. Staff cannot be edited here and need to be edited in the about section of your website.</p>
+        <div class="block-md">
+            <ul class="grid-columns-3 max-width-none no-margin no-padding">
+                {{ range seq 3 }}
+                <li class="staff-card">
+                    <div class="staff-card__image">
+                        <img src="/uploads/sophia-martinez.jpg" alt="">
+                    </div>
+                    <div class="staff-card__content text-align-center">
+                        <h3 class="no-margin"><a href="#" class="card__link">Example Staff Name</a></h3>
+                        <p class="staff-card__job-title">Example Job Title</p>
+                    </div>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>
+{{ else }}
 <section class="block bg-{{ .background_color }}" aria-label="Featured Articles">
     <div class="wrapper-md flow">
         <h2 class="text-align-center max-width-none">{{ .heading }}</h2>
@@ -11,3 +34,4 @@
         </div>
     </div>
 </section>
+{{ end }}
