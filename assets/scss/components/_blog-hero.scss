@@ -1,33 +1,27 @@
 .hero--blog {
   overflow: visible;
-
-  h1 {
-    font-size: clamp($ic-300, 4vw, $ic-600);
-  }
-
-  .post-featured-image {
-    img {
-      height: 275px;
-
-      @include breakpoint(md) {
-        height: 400px;
-      }
-    }
-  }
 }
 
-.back {
+.hero--blog h1 {
+  font-size: clamp($ic-300, 4vw, $ic-600);
+}
+
+.decorative-image__image {
+  aspect-ratio: 4/2;
+}
+
+.bounce-left {
   background-image: none;
 
   &:hover, 
   &:focus {
     svg {
-      animation: animate-arrow 1s infinite;
+      animation: animate-arrow-left 1s infinite;
     }
   }
 }
 
-@keyframes animate-arrow {
+@keyframes animate-arrow-left {
   0%, 100% {
       transform: translateX(0%);
       animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
@@ -38,12 +32,28 @@
   }
 }
 
-.reading-time {
-  gap: .5rem;
+.bounce-right {
+  background-image: none;
+
+  &:hover, 
+  &:focus {
+    svg {
+      animation: animate-arrow-right 1s infinite;
+    }
+  }
 }
 
-.post-content {
-  picture {
-    display: block;
+@keyframes animate-arrow-right {
+  0%, 100% {
+      transform: translateX(0%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
+  50% {
+      transform: translateX(25%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.reading-time {
+  gap: .5rem;
 }

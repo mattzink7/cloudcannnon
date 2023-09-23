@@ -2,13 +2,18 @@
 title: "Why Is Sustainability Important In Business?"
 seo:
   page_title: 
-  meta_description: Businesses all around the world are becoming more sustainable, balancing their fiscal, economic, environmental and social responsibilities to protect the planet and people. Although companies are being pressured by consumers, competitors and employees to implement green initiatives into their business model, most sustainable companies are driven by purpose and the greater good.
-  featured_image:
+  meta_description: Today, it’s incontestable that instituting a sustainability strategy is good business. The benefits of this go beyond environmental and social security.
+  featured_image: /uploads/plants-on-building-1.jpg
 draft: false
 author:
 date: 2019-09-03
 categories:
   - Sustainability
+table_of_contents: 
+  enabled: false
+  contents:
+    - label: 
+      id: 
 ---
 
 ## The case for business sustainability

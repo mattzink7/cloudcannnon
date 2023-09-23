@@ -4,3 +4,18 @@
     overflow-x: initial;
   }
 }
+
+.post {
+  picture {
+    display: block;
+  }
+}
+
+.post__body p + h2,
+.post__body p + h3,
+.post__body ul + h2,
+.post__body ul + h3,
+.post__body ol + h2,
+.post__body ol + h3 {
+  margin-top: $ic-600;
+}

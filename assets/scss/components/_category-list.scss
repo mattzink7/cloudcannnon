@@ -6,7 +6,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   transform: scaleY(0);
   transform-origin: top;
   transition: $transition;
@@ -28,6 +28,7 @@
   color: $white;
   padding: 0.5rem 1rem;
   text-decoration: none;
+  background-image: none;
 }
 
 .category-list.list-open {

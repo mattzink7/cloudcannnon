@@ -3,12 +3,17 @@ title: "The business of sustainability"
 seo:
   page_title: 
   meta_description: More companies are managing sustainability to improve processes, pursue growth, and add value to their companies rather than focusing on reputation alone.
-  featured_image:
+  featured_image: /uploads/solar-panels-1.jpg
 draft: false
 author:
 date: 2019-09-02
 categories:
-  - Sustainability
+  - Conservation
+table_of_contents: 
+  enabled: false
+  contents:
+    - label: 
+      id: 
 ---
 
 Many companies are actively integrating sustainability principles into their businesses, according to a recent McKinsey survey,1 and they are doing so by pursuing goals that go far beyond earlier concern for reputation management—for example, saving energy, developing green products, and retaining and motivating employees, all of which help companies capture value through growth and return on capital. In our sixth survey of executives on how their companies understand and manage issues related to sustainability,2 this year’s results show that, since last year, larger shares of executives say sustainability programs make a positive contribution to their companies’ short- and long-term value.

@@ -3,12 +3,17 @@ title: "What Is Sustainability in Business? (+10 Brand Examples)"
 seo:
   page_title: 
   meta_description: "It's official: customers choose sustainable products from sustainable brands. This means that brands that can strategically connect sustainability to actual behavior are in a good place to capitalize on increased consumer expectation and demand."
-  featured_image:
+  featured_image: /uploads/business-with-solar-panels-in-field-1.jpg
 draft: false
 author:
 date: 2019-09-01
 categories:
   - Sustainability
+table_of_contents: 
+  enabled: false
+  contents:
+    - label: 
+      id: 
 ---
 
 It's official: customers choose sustainable products from sustainable brands.

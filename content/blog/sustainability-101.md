@@ -2,13 +2,18 @@
 title: "Sustainability 101: What is a Sustainable Business"
 seo:
   page_title: 
-  meta_description: Businesses all around the world are becoming more sustainable, balancing their fiscal, economic, environmental and social responsibilities to protect the planet and people. Although companies are being pressured by consumers, competitors and employees to implement green initiatives into their business model, most sustainable companies are driven by purpose and the greater good.
-  featured_image:
+  meta_description: Although companies are being pressured by consumers, competitors and employees to implement green initiatives into their business model, most sustainable companies are driven by purpose and the greater good.
+  featured_image: /uploads/trees-growing-in-stairway-1.jpg
 draft: false
 author:
 date: 2019-08-01
 categories:
   - Sustainability
+table_of_contents: 
+  enabled: false
+  contents:
+    - label: 
+      id: 
 ---
 
 Businesses all around the world are becoming more sustainable, balancing their fiscal, economic, environmental and social responsibilities to protect the planet and people. Although companies are being pressured by consumers, competitors and employees to implement green initiatives into their business model, most sustainable companies are driven by purpose and the greater good. Executives and business owners are finding ways to make the necessary sustainability changes while still growing their businesses and maintaining profit.

@@ -4,8 +4,8 @@ title = "Essentia"
 enableRobotsTXT = true
 disableAliases = true
 # post pagination
-paginate = "6"
-summaryLength = 30
+paginate = "9"
+summaryLength = 20
 
 #################### default parameters ################################
 

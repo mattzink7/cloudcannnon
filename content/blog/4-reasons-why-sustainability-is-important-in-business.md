@@ -3,12 +3,25 @@ title: "4 Reasons Why Sustainability Is Important in Business"
 seo:
   page_title: 
   meta_description: "It's official: customers choose sustainable products from sustainable brands. This means that brands that can strategically connect sustainability to actual behavior are in a good place to capitalize on increased consumer expectation and demand."
-  featured_image:
+  featured_image: /uploads/trees-growing-in-stairway-1.jpg
 draft: false
 author:
 date: 2019-09-05
 categories:
-  - Sustainability
+  - Community
+table_of_contents: 
+  enabled: true
+  contents:
+    - label: Green Lifestyle, Green Consumption
+      id: green-lifestyle-green-consumption
+    - label: Why Sustainability is Important in Business
+      id: why-sustainability-is-important-in-business
+    - label: How Do Businesses Develop Sustainability?
+      id: how-do-businesses-develop-sustainability
+    - label: The New Business Trend
+      id: the-new-business-trend
+    - label: Concerns About Greenwashing
+      id: concerns-about-greenwashing
 ---
 
 The interest in adopting a greener lifestyle is now less of a trend, but more of a necessity in recent years as environmental degradation and climate change becomes more widespread and prevalent. Traditional business models have been compelled to “adapt” in order to meet new market needs as a result of the global shift toward green consumerism. Here’s why sustainability is important in business, now more than ever. 

@@ -1,8 +1,7 @@
-{{ $heroClass := lower .Page.Title }}
-<div class="hero--blog block bg-black">
-  <div class="wrapper-lg columns gap-lg">
-      <div class="col">
-        <a href="/about/" class="back flex flex-center"><div class="icon-md icon-stroke-primary">{{ partialCached "svg-icons/chevron-left.svg" . }}</div> Back to all staff</a>
+<section class="hero--simple hero--blog block bg-black" aria-labelledby="hero-heading">
+  <div class="wrapper-lg columns gap-md">
+      <div class="hero__content col margin-block-auto">
+        <a href="/blog/" class="bounce-left flex flex-center"><div class="icon-md icon-stroke-primary">{{ partialCached "svg-icons/chevron-left.svg" . }}</div> Back to all posts</a>
         <h1>{{ .Title | markdownify }}</h1>
         <div class="columns flex-justify-between gap-sm">
           <div class="col flex flex-wrap gap-sm">
@@ -18,10 +17,21 @@
           </div>
         </div>
       </div>
-      <div class="post-featured-image col">
-        <div class="cover-image">
-          {{ partial "responsive-image-hero" . }}
-        </div>
+      <div class="decorative-image col">
+        <img class="decorative-image__image rounded-image" src="{{ .Params.seo.featured_image }}" alt="" width="1200" height="800">
+        <img class="decorative-image__circles background-circles" src="/uploads/circles-background-square.svg" alt="">
       </div>
   </div>
-</div>
+</section>
+{{ if .Params.table_of_contents.enabled }}
+<details class="toc bg-black-2">
+  <summary class="toc__summary margin-inline-auto">In This Article</summary>
+  <ul class="toc__list">
+    {{ range .Params.table_of_contents.contents }}
+        <li class="toc__list-item">
+          <a class="toc__link transform-x-8" href="#{{ .id }}">{{ .label }}</a>
+        </li>
+    {{ end }}
+  </ul>
+</details>
+{{ end }}

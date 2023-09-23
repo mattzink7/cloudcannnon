@@ -3,12 +3,17 @@ title: "5 Reasons Sustainability Is Beneficial For Business—Not Just The Envir
 seo:
   page_title: 
   meta_description: Reviewing the recently published Fortune 500 ranking of America’s biggest companies, it was impressive to see that almost all of them had corporate social responsibilities, or CSR, listed in their core objectives.
-  featured_image:
+  featured_image: /uploads/trees-growing-in-stairway-1.jpg
 draft: false
 author:
 date: 2019-09-04
 categories:
-  - Sustainability
+  - Green Tech
+table_of_contents: 
+  enabled: false
+  contents:
+    - label: 
+      id: 
 ---
 
 Reviewing the recently published Fortune 500 ranking of America’s biggest companies, it was impressive to see that almost all of them had corporate social responsibilities, or CSR, listed in their core objectives. Having spent most of my career in corporate America with large corporations, I once cynically viewed social or environmental impact as a check-the-box task for HR manuals, annual reports or website marketing.

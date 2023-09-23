@@ -8,3 +8,32 @@ details {
         color: $primary-color;
     }
 }
+
+/* Hide default arrow */
+details > summary::-webkit-details-marker {
+    display: none;
+}
+  
+details > summary {
+    position: relative;
+    list-style: none;
+}
+
+details > summary:before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid $white;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    transition: transform $transition;
+}
+  
+/* Change marker when details is open */
+details[open] > summary:before {
+    transform: rotate(180deg);
+}
