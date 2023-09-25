@@ -8,6 +8,8 @@ menu:
 seo:
   title:
   description:
+  featured_image: 
+  featured_image_alt:
 content_blocks:
   - _bookshop_name: hero-simple
     heading: >-

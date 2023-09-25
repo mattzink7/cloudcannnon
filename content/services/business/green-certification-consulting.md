@@ -6,7 +6,9 @@ menu:
 seo:
   page_title:
   meta_description:
-  featured_image:
+  featured_image: /uploads/trees-1.jpg
+  featured_image_alt:
+service_type: business
 hero: 
   enabled: true
   heading: Services

@@ -4,6 +4,7 @@ seo:
   page_title:
   meta_description: A seasoned professional with an eye for operational excellence, Aaron ensures Essentia runs smoothly and efficiently.
   featured_image: /uploads/aaron-fletcher.jpg
+  featured_image_alt:
 headshot: /uploads/aaron-fletcher.jpg
 job_title: Co-founder & COO
 weight: 2

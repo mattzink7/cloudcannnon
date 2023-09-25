@@ -6,13 +6,13 @@
         <div class="block-md">
             <ul class="grid-columns-3 max-width-none no-margin no-padding">
                 {{ range seq 3 }}
-                <li class="staff-card">
-                    <div class="staff-card__image">
+                <li class="image-card">
+                    <div class="image-card__image">
                         <img src="/uploads/sophia-martinez.jpg" alt="">
                     </div>
-                    <div class="staff-card__content text-align-center">
+                    <div class="image-card__content text-align-center">
                         <h3 class="no-margin"><a href="#" class="card__link">Example Staff Name</a></h3>
-                        <p class="staff-card__job-title">Example Job Title</p>
+                        <p class="image-card__job-title">Example Job Title</p>
                     </div>
                 </li>
                 {{ end }}
@@ -28,7 +28,7 @@
         <div class="block-md">
             <ul class="grid-columns-3 max-width-none no-margin no-padding">
                 {{ range where site.RegularPages "Section" "about" }}
-                    {{ .Render "staff-card" }}
+                    {{ .Render "image-card" }}
                 {{- end -}}
             </ul>
         </div>

@@ -4,6 +4,8 @@ page_class: privacy
 seo:
   title:
   description:
+  featured_image: 
+  featured_image_alt:
 ---
 
 By accessing or using {{ site.Author }}'s website, you agree to the terms of this Online Privacy Policy, as outlined below. If you do not agree to these terms, please do not access or use this site.

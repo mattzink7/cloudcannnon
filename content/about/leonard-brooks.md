@@ -4,6 +4,7 @@ seo:
   page_title:
   meta_description: A seasoned professional with an eye for operational excellence, Aaron ensures Essentia runs smoothly and efficiently.
   featured_image: /uploads/leonard-brooks.jpg
+  featured_image_alt:
 headshot: /uploads/leonard-brooks.jpg
 job_title: Business Development Manager
 weight: 6

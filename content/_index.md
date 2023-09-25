@@ -3,6 +3,8 @@ title: Home
 seo:
   title:
   description:
+  featured_image: 
+  featured_image_alt:
 content_blocks:
   - _bookshop_name: hero
     heading: Turn Energy Data into Sustainable Action
@@ -37,7 +39,7 @@ content_blocks:
       image_url: /uploads/business-1.jpg
       image_alt: Trees with sunshine shining through branches
     button:
-      button_url: /services/
+      button_url: /services/business/
       button_text: sustainability for business
       open_in_new_tab: false
     background_color: black
@@ -54,7 +56,7 @@ content_blocks:
       image_url: /uploads/homeowners-2.jpg
       image_alt: Trees with sunshine shining through branches
     button:
-      button_url: /services/
+      button_url: /services/homeowners/
       button_text: sustainability for homeowners
       open_in_new_tab: false
     background_color: white

@@ -1,4 +1,4 @@
-.staff-card {
+.image-card {
   position: relative;
   list-style-type: none;
   max-width: none;
@@ -7,20 +7,20 @@
   border-radius: $radius;
 }
 
-.staff-card:hover,
-.staff-card:focus {
-  .staff-card__image img {
+.image-card:hover,
+.image-card:focus {
+  .image-card__image img {
     filter: brightness(0.7);
   }
 }
 
 
-.staff-card__image {
+.image-card__image {
   position: relative;
   height: 400px;
 }
 
-.staff-card__image img {
+.image-card__image img {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -30,16 +30,16 @@
   transition: $transition;
 }
 
-.staff-card__content {
+.image-card__content {
   padding-block: $ic-400;
   padding-inline: $ic-200;
 }
 
-.staff-card a {
+.image-card a {
   background-image: none;
 }
 
-.staff-card a::after {
+.image-card a::after {
   content: "";
   position: absolute;
   top: 0;
@@ -47,4 +47,8 @@
   height: 100%;
   width: 100%;
   z-index: 1;
+}
+
+.parent-page-services .image-card__image {
+  height: 250px;
 }

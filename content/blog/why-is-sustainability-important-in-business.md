@@ -4,6 +4,7 @@ seo:
   page_title: 
   meta_description: Today, it’s incontestable that instituting a sustainability strategy is good business. The benefits of this go beyond environmental and social security.
   featured_image: /uploads/plants-on-building-1.jpg
+  featured_image_alt:
 draft: false
 author:
 date: 2019-09-03

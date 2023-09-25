@@ -4,6 +4,7 @@ seo:
   page_title: 
   meta_description: "It's official: customers choose sustainable products from sustainable brands. This means that brands that can strategically connect sustainability to actual behavior are in a good place to capitalize on increased consumer expectation and demand."
   featured_image: /uploads/trees-growing-in-stairway-1.jpg
+  featured_image_alt:
 draft: false
 author:
 date: 2019-09-05

@@ -4,6 +4,7 @@ seo:
   page_title: 
   meta_description: Although companies are being pressured by consumers, competitors and employees to implement green initiatives into their business model, most sustainable companies are driven by purpose and the greater good.
   featured_image: /uploads/trees-growing-in-stairway-1.jpg
+  featured_image_alt:
 draft: false
 author:
 date: 2019-08-01

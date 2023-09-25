@@ -4,6 +4,7 @@ seo:
   page_title: 
   meta_description: Reviewing the recently published Fortune 500 ranking of America’s biggest companies, it was impressive to see that almost all of them had corporate social responsibilities, or CSR, listed in their core objectives.
   featured_image: /uploads/trees-growing-in-stairway-1.jpg
+  featured_image_alt:
 draft: false
 author:
 date: 2019-09-04

@@ -6,7 +6,9 @@ menu:
 seo:
   page_title:
   meta_description:
-  featured_image:
+  featured_image: /uploads/home-attic-inspection-1.jpg
+  featured_image_alt:
+service_type: homeowners
 hero: 
   enabled: true
   heading: Services

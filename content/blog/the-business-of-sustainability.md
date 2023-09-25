@@ -4,6 +4,7 @@ seo:
   page_title: 
   meta_description: More companies are managing sustainability to improve processes, pursue growth, and add value to their companies rather than focusing on reputation alone.
   featured_image: /uploads/solar-panels-1.jpg
+  featured_image_alt:
 draft: false
 author:
 date: 2019-09-02

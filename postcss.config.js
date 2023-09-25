@@ -51,6 +51,7 @@ module.exports = {
         'bg-black',
         'bg-gray',
         'bg-white',
+        'grid-columns-4',
       ],
     }),
   ],
