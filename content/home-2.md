@@ -9,11 +9,7 @@ content_blocks:
   - _bookshop_name: hero
     heading: Turn Energy Data into Sustainable Action
     body: >-
-      Harness the power of cutting-edge analytics with Essentia. Our intuitive
-      software deciphers complex energy patterns, enabling businesses and
-      homeowners to reduce costs and minimize environmental impact. Dive deep
-      into real-time insights, make informed decisions, and lead the charge
-      towards a sustainable future.
+      Unlock the potential of your energy data with Essentia's cutting-edge software solutions. Our platform provides real-time insights and actionable recommendations, empowering businesses and homeowners to optimize energy consumption for a greener, more sustainable future.
     image_1:
       image_url: /uploads/trees-1.jpg
       image_alt: Trees with sunshine shining through branches
@@ -30,13 +26,9 @@ content_blocks:
   - _bookshop_name: media-text
     heading: For Business
     body: >-
-      In today's competitive landscape, sustainable analytics provides
-      businesses a strategic edge. With Essentia, companies can uncover hidden
-      inefficiencies, adapt to evolving energy trends, and significantly reduce
-      operational costs. Transform your energy data into tangible savings and
-      sustainable solutions.
+      Sustainable analytics empower businesses with actionable insights into their energy consumption patterns. By harnessing data-driven solutions, businesses can identify inefficiencies, implement targeted optimizations, and ultimately reduce costs while contributing to a more eco-conscious future.
     image:
-      image_url: /uploads/business.svg
+      image_url: /uploads/business-1.jpg
       image_alt: Trees with sunshine shining through branches
     button:
       button_url: /services/business/
@@ -47,11 +39,7 @@ content_blocks:
   - _bookshop_name: media-text
     heading: For Homeowners
     body: >-
-      Every household has the potential to be more energy-efficient and
-      environmentally conscious. With Essentia's insights, homeowners gain a
-      clear understanding of their energy usage, empowering them to make smarter
-      choices, reduce monthly bills, and contribute to a greener planet.
-      Discover the harmony of savings and sustainability right at home.
+      Empower your home with Essentia's sustainable analytics, providing you with real-time insights into your energy consumption. Take control of your energy usage, identify areas for improvement, and watch as your home becomes more efficient, saving you money while contributing to a greener planet.
     image:
       image_url: /uploads/homeowners-2.jpg
       image_alt: Trees with sunshine shining through branches
@@ -62,12 +50,9 @@ content_blocks:
     background_color: white
     text_column_position: left
   - _bookshop_name: blog-feed
-    heading: Our Latest Sustainability Resources
+    heading: Explore Our Latest Insights and Green Technology Trends
     body: >-
-      Dive deep into the world of sustainable energy with the latest articles,
-      trends, and breakthroughs. At Essentia, we believe in empowering our
-      community with knowledge. Stay informed, stay sustainable, and join the
-      conversation shaping our energy future.
+      Stay informed and inspired with our regularly updated blog. Discover the latest developments in sustainable technology, energy-saving tips, and industry trends. Our experts share valuable insights to help you make informed decisions on your journey towards a greener, more efficient future.
     button:
       button_url: /blog/
       button_text: View All Posts
@@ -78,40 +63,30 @@ content_blocks:
     numbers:
       - heading: 10+ Years in Business
         body: >-
-          Empowering businesses and homeowners with sustainable energy solutions
-          since 2013.
-      - heading: 150,000+ Customers
+          With a decade of experience, Essentia has been at the forefront of sustainable energy solutions, driving innovation and efficiency.
+      - heading: 30%
         body: >-
-          A growing community of eco-conscious individuals and businesses
-          trusting Essentia.
-      - heading: 27% Energy Saved
+          Essentia's technology has enabled businesses and homeowners to reduce their energy consumption by an average of 30%, leading to substantial cost savings and a lighter environmental footprint.
+      - heading: 5,000+
         body: >-
-          Helping our users significantly reduce their carbon footprint and
-          energy bills.
-      - heading: $4.2 Million Saved
+          Essentia proudly serves over 5,000 satisfied customers, ranging from small businesses to large enterprises, all benefiting from our tailored energy solutions.
+      - heading: $2 Million
         body: >-
-          Translated energy savings into substantial financial benefits for our
-          community.
+          Our clients collectively save over $2 million annually on energy costs, thanks to Essentia's data-driven approach and cutting-edge technology.
     background_color: gray
   - _bookshop_name: double-cta
     cta_left:
-      heading: Shape the Future of Energy with Us
+      heading: Join Our Team
       body: >-
-        At Essentia, we believe in the power of innovation and collaboration.
-        Join a team of forward-thinkers, driven by the mission to revolutionize
-        energy consumption and sustainability. If you're passionate about making
-        a difference, we want you on board.
+        Are you passionate about sustainable technology and making a positive impact on the environment? Explore career opportunities at Essentia and be part of a dynamic team committed to revolutionizing the energy industry. Check out our current openings and apply today!
       button:
         button_url: /careers/
         button_text: View Open Positions
         open_in_new_tab: false
     cta_right:
-      heading: Experience the Power of Essentia
+      heading: Schedule a Demo
       body: >-
-        Discover firsthand how Essentia can transform your energy consumption
-        patterns and drive sustainability. Schedule a demo today and let us
-        guide you through the features, benefits, and potential savings for your
-        home or business.
+        Experience the power of Essentia's energy analytics firsthand. Request a personalized demo and discover how our innovative solutions can help you optimize energy consumption, save costs, and promote sustainability. Get started on your journey towards a greener future today!
       button:
         button_url: /schedule-demo/
         button_text: Schedule a Demo
