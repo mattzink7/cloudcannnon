@@ -23,15 +23,11 @@
       </div>
   </div>
 </section>
-{{ if .Params.table_of_contents.enabled }}
+{{ if .TableOfContents }}
 <details class="toc bg-black-2">
   <summary class="toc__summary margin-inline-auto">In This Article</summary>
-  <ul class="toc__list">
-    {{ range .Params.table_of_contents.contents }}
-        <li class="toc__list-item">
-          <a class="toc__link transform-x-8" href="#{{ .id }}">{{ .label }}</a>
-        </li>
-    {{ end }}
-  </ul>
+  <div class="toc__list">
+    {{ .TableOfContents }}
+  </div>
 </details>
 {{ end }}

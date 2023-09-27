@@ -25,34 +25,23 @@ content_blocks:
       button_text: Schedule A Demo
       open_in_new_tab: false
   - _bookshop_name: services-feed
-    heading: Meet Our Sustainability Experts
+    heading: Sustainability Services for Businesses
     body: >-
-      At Essentia, each member brings a unique blend of expertise, united by a
-      common goal: to revolutionize the world of sustainable energy. From our
-      pioneering co-founders to our innovative engineers and strategists, every
-      individual plays a crucial role in shaping our journey.
+      Empower your business operations with data-driven, eco-friendly solutions. Our suite of services is tailored to promote both sustainability and profitability, ensuring a greener future without compromising on growth.
     services_feed: Business
-    background_color: white
-  - _bookshop_name: numbers
-    heading: Driving Sustainable Businesses Forward
-    numbers:
-      - heading: 10+ Years in Business
-        body: >-
-          Empowering businesses and homeowners with sustainable energy solutions
-          since 2013.
-      - heading: 150,000+ Customers
-        body: >-
-          A growing community of eco-conscious individuals and businesses
-          trusting Essentia.
-      - heading: 27% Energy Saved
-        body: >-
-          Helping our users significantly reduce their carbon footprint and
-          energy bills.
-      - heading: $4.2 Million Saved
-        body: >-
-          Translated energy savings into substantial financial benefits for our
-          community.
     background_color: gray
+  - _bookshop_name: blog-feed
+    heading: Our Latest Sustainability Resources
+    body: >-
+      Dive deep into the world of sustainable energy with the latest articles,
+      trends, and breakthroughs. At Essentia, we believe in empowering our
+      community with knowledge. Stay informed, stay sustainable, and join the
+      conversation shaping our energy future.
+    button:
+      button_url: /blog/
+      button_text: View All Posts
+      open_in_new_tab: false
+    background_color: white
   - _bookshop_name: double-cta
     cta_left:
       heading: Shape the Future of Energy with Us
@@ -77,7 +66,3 @@ content_blocks:
         button_text: Schedule a Demo
         open_in_new_tab: false
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc faucibus a pellentesque sit amet. Quam viverra orci sagittis eu volutpat odio. Purus viverra accumsan in nisl nisi scelerisque eu ultrices. In iaculis nunc sed augue lacus viverra. In hac habitasse platea dictumst. Iaculis eu non diam phasellus vestibulum lorem sed. Feugiat nibh sed pulvinar proin. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Nibh venenatis cras sed felis eget. In nisl nisi scelerisque eu. Semper viverra nam libero justo laoreet sit amet cursus. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.
-
-Massa ultricies mi quis hendrerit dolor magna eget est. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Adipiscing enim eu turpis egestas pretium. Tristique senectus et netus et malesuada fames ac turpis egestas. Nam aliquam sem et tortor consequat id. Erat pellentesque adipiscing commodo elit at. Magna fermentum iaculis eu non. Convallis convallis tellus id interdum velit laoreet id. Hendrerit dolor magna eget est lorem ipsum dolor sit amet. Lorem mollis aliquam ut porttitor leo a. Mollis nunc sed id semper risus in.

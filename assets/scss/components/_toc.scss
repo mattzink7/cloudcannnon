@@ -15,7 +15,13 @@
 }
 
 .toc__list {
-    list-style-type: none;
-    padding-inline: 0;
     margin-inline: auto;
+}
+
+.toc__list #TableOfContents > ul {
+    padding-inline-start: 0;
+}
+
+.toc__list li {
+    list-style-type: none;
 }

@@ -4,7 +4,7 @@
         <h2 class="text-align-center max-width-none">Our Recent Posts</h2>
         <p class="text-align-center margin-inline-auto">This is just a placeholder to show you what your blog feed will look like. Blog posts cannot be edited here and need to be edited in the blog section of your website.</p>
         <div class="block-md">
-            <ul class="grid-columns-3 max-width-none no-margin no-padding">
+            <ul class="grid-columns-3 gap-sm max-width-none no-margin no-padding">
                 {{ range seq 3 }}
                 <li class="card">
                     <div class="accent-line flow">
@@ -26,7 +26,7 @@
         <h2 class="text-align-center max-width-none">{{ .heading }}</h2>
         <p class="text-align-center margin-inline-auto">{{ .body | safeHTML }}</p>
         <div class="block-md">
-            <ul class="grid-columns-3 max-width-none no-margin no-padding">
+            <ul class="grid-columns-3 gap-sm max-width-none no-margin no-padding">
                 {{ range where site.RegularPages "Section" "blog" | first 3 }}
                     {{ .Render "blog-card" }}
                 {{- end -}}

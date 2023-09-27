@@ -1,10 +1,10 @@
 {{ if site.Params.env_bookshop_live }}
 <section class="block bg-gray">
-    <div class="wrapper-lg flow">
-        <h2 class="text-align-center max-width-none">Our Staff</h2>
-        <p class="text-align-center margin-inline-auto">This is just a placeholder to show you what your staff feed will look like. Staff cannot be edited here and need to be edited in the about section of your website.</p>
+    <div class="wrapper-lg flow text-align-center">
+        <h2 class="max-width-none">Our Staff</h2>
+        <p class="margin-inline-auto">This is just a placeholder to show you what your staff feed will look like. Staff cannot be edited here and need to be edited in the about section of your website.</p>
         <div class="block-md">
-            <ul class="grid-columns-3 max-width-none no-margin no-padding">
+            <ul class="grid-columns-3 gap-sm max-width-none no-margin no-padding">
                 {{ range seq 3 }}
                 <li class="image-card">
                     <div class="image-card__image">
@@ -22,11 +22,11 @@
 </section>
 {{ else }}
 <section class="block bg-{{ .background_color }}" aria-label="Featured Articles">
-    <div class="wrapper-md flow">
-        <h2 class="text-align-center max-width-none">{{ .heading }}</h2>
-        <p class="text-align-center margin-inline-auto">{{ .body | safeHTML }}</p>
+    <div class="wrapper-md flow text-align-center">
+        <h2 class="max-width-none">{{ .heading }}</h2>
+        <p class="margin-inline-auto">{{ .body | safeHTML }}</p>
         <div class="block-md">
-            <ul class="grid-columns-3 max-width-none no-margin no-padding">
+            <ul class="grid-columns-3 gap-sm max-width-none no-margin no-padding">
                 {{ range where site.RegularPages "Section" "about" }}
                     {{ .Render "image-card" }}
                 {{- end -}}
