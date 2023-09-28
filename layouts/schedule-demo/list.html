@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ partial "bookshop_bindings" `.Params.content_blocks` }}
+{{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+<section class="block">
+    <div class="wrapper-sm">
+      {{ partial "forms/schedule-demo-form" . }}
+    </div>
+</section>
+{{ end }}

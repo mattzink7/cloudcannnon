@@ -17,7 +17,7 @@ content_blocks:
     body: >-
       Shape the future of sustainable living with us. Dive into a career that makes a difference every day.
     image:
-      image_url: /uploads/trees-1.jpg
+      image_url: /uploads/five-people-on-laptops-working-together-1.jpg
       image_alt: Trees with sunshine shining through branches
     button:
       button_url: 
@@ -28,7 +28,7 @@ content_blocks:
     body: >-
       Every position at our company is more than just a job — it's an opportunity to make a lasting impact on the planet. Our team is united by a passion for sustainability, an innovative spirit, and the desire to drive real change. As part of our crew, you'll contribute to cutting-edge green initiatives, collaborate with like-minded experts, and play a pivotal role in fostering an eco-conscious world for future generations.
     image:
-      image_url: /uploads/plant-in-hands-1.jpg
+      image_url: /uploads/team-working-at-a-desk-together-1.jpg
       image_alt: Small plant in hands
     button:
       button_url:
@@ -149,21 +149,4 @@ content_blocks:
         name: Miguel V.
         title: Operations Manager at TechFlow Corp.
     background_color: black
-  - _bookshop_name: double-cta
-    cta_left:
-      heading: Join Our Team
-      body: >-
-        Are you passionate about sustainable technology and making a positive impact on the environment? Explore career opportunities at Essentia and be part of a dynamic team committed to revolutionizing the energy industry. Check out our current openings and apply today!
-      button:
-        button_url: /apply-now/
-        button_text: Apply Now
-        open_in_new_tab: false
-    cta_right:
-      heading: Schedule a Demo
-      body: >-
-        Experience the power of Essentia's energy analytics firsthand. Request a personalized demo and discover how our innovative solutions can help you optimize energy consumption, save costs, and promote sustainability. Get started on your journey towards a greener future today!
-      button:
-        button_url: /schedule-demo/
-        button_text: Schedule a Demo
-        open_in_new_tab: false
 ---

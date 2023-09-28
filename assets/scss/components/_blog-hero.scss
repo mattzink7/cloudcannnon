@@ -10,15 +10,14 @@
   aspect-ratio: 4/2;
 }
 
-.bounce-left {
-  background-image: none;
+.bounce-left,
+.bounce-right {
+  max-width: max-content;
+}
 
-  &:hover, 
-  &:focus {
-    svg {
-      animation: animate-arrow-left 1s infinite;
-    }
-  }
+.bounce-left:hover svg,
+.bounce-left:focus svg {
+  animation: animate-arrow-left 1s infinite;
 }
 
 @keyframes animate-arrow-left {
@@ -32,15 +31,9 @@
   }
 }
 
-.bounce-right {
-  background-image: none;
-
-  &:hover, 
-  &:focus {
-    svg {
-      animation: animate-arrow-right 1s infinite;
-    }
-  }
+.bounce-right:hover svg,
+.bounce-right:focus svg {
+  animation: animate-arrow-right 1s infinite;
 }
 
 @keyframes animate-arrow-right {

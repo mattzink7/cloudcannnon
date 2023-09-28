@@ -11,6 +11,16 @@
   }
 }
 
+.post__body h1,
+.post__body h2,
+.post__body h3,
+.post__body h4,
+.post__body h5,
+.post__body h6 {
+  max-width: none;
+  text-wrap: nowrap;
+}
+
 .post__body p + h2,
 .post__body p + h3,
 .post__body ul + h2,

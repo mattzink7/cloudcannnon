@@ -18,7 +18,7 @@
   scroll-snap-align: start;
 }
 
-.reel:focus {
+.reel:focus-visible {
   outline: 4px solid $primary-color;
 }
 

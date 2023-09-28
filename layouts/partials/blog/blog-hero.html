@@ -3,15 +3,15 @@
       <div class="hero__content col margin-block-auto">
         <a href="/blog/" class="bounce-left flex flex-center"><div class="icon-md icon-stroke-primary">{{ partialCached "svg-icons/chevron-left.svg" . }}</div> Back to all posts</a>
         <h1>{{ .Title | markdownify }}</h1>
-        <div class="columns flex-justify-between gap-sm">
-          <div class="col flex flex-wrap gap-sm">
-            {{ if .Params.Categories }}
-              {{ range (.GetTerms "categories") }}
+        <div class="flex flex-column flex-row-md flex-justify-between-md gap-sm">
+          <div class="flex flex-wrap gap-sm">
+          {{ if .Params.Categories }}
+            {{ range first 2 (.GetTerms "categories") }}
                 <a href="{{ .Permalink }}" class="btn btn--primary btn--category" aria-label="View all {{ .Page.Title }} posts">{{ .LinkTitle }}</a>
-              {{ end }}
             {{ end }}
+          {{ end }}
           </div>
-          <div class="reading-time col flex flex-center flex-justify-end">
+          <div class="reading-time flex flex-center">
             <div class="icon-md">{{ partialCached "svg-icons/clock.svg" . }}</div>
             <div class="font-size-xs"> {{ .ReadingTime }} min read</div>
           </div>

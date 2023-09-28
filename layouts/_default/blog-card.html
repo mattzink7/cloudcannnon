@@ -1,5 +1,5 @@
 <li class="card">
-    <div class="accent-line flow">
+    <article class="accent-line flow">
         {{ if .Params.Categories }}
             {{ range (.GetTerms "categories") }}
                 <a class="card__category" href="{{ .Permalink }}" aria-label="View all {{ .LinkTitle }} posts">{{ .LinkTitle }}</a>
@@ -9,5 +9,5 @@
         <p class="card__summary font-size-xs">
         {{ if .Params.seo.meta_description }}{{ .Params.seo.meta_description | safeHTML }}{{ else }}{{ .Summary  | safeHTML }}{{ end }}
         </p>
-    </div>
+    </article>
 </li>

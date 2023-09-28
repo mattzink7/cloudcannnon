@@ -1,6 +1,6 @@
 <section class="numbers block bg-{{ .background_color }}" aria-labelledby="{{ .heading | urlize }}">
 	<div class="wrapper-lg">
-		<h2 id="{{ .heading | urlize }}" class="mb-6">{{ .heading }}</h2>
+		<h2 class="mb-6" id="{{ .heading | urlize }}">{{ .heading }}</h2>
 		<div class="columns gap-lg">
 			{{ range .numbers }}
 				<div class="number col flow">

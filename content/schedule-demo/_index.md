@@ -1,10 +1,5 @@
 ---
-title: Contact
-menu:
-  main:
-    weight: 5
-  footer:
-    weight: 5
+title: Schedule Demo
 seo:
   page_title:
   meta_description:
@@ -12,9 +7,9 @@ seo:
   featured_image_alt:
 content_blocks:
   - _bookshop_name: hero-simple
-    heading: Get in Touch with Our Energy Experts
+    heading: Experience the Power of Essentia
     body: >-
-      Ready to embark on a greener journey? Reach out to us, and let’s craft a sustainable future together.
+      Discover firsthand how Essentia can transform your energy consumption patterns and drive sustainability. Schedule a demo today and let us guide you through the features, benefits, and potential savings for your home or business.
     image:
       image_url: /uploads/two-people-at-table-1.jpg
       image_alt: Two people sitting at a table together

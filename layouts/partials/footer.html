@@ -68,7 +68,7 @@
           <div class="contact-form__form-group">
               <h2 class="h6">Subscribe to Get Industry Updates</h2>
               <label for="email" class="font-size-xs">Email*</label>
-              <div class="flex flex-center">
+              <div class="flex flex-center gap-sm">
                 <input id="email" name="_replyto" type="email" class="contact-form__form-control" required>
                 <button type="submit" class="contact-form__btn btn btn--primary btn--newsletter">Subscribe</button>
               </div>
@@ -86,7 +86,7 @@
   <div class="wrapper-lg">
     <div class="footer__bottom border-top-white">
       <div class="footer__copyright flex flex-column flex-row-md flex-center">
-        <p>© {{ dateFormat "2006" now }} {{ .Site.Data.site_settings.business_name }}</p>
+        <p>© {{ dateFormat "2006" now }} <span translate="no">{{ .Site.Data.site_settings.business_name }}</span></p>
         <ul class="footer__copyright-nav flex flex-justify-center">
           <li class="footer__copyright-item"><a href="/privacy-policy/">Privacy Policy</a></li>
           <li class="footer__copyright-item"><a href="/sitemap/">Sitemap</a></li>
