@@ -59,6 +59,7 @@ content_blocks:
           We harness the power of cutting-edge software to provide intuitive and
           actionable insights, enabling businesses and homeowners to understand
           and optimize their energy consumption effortlessly.
+        text_align: start
       - _bookshop_name: icon-card
         image:
           image_url: /uploads/sustainability.svg
@@ -68,6 +69,7 @@ content_blocks:
           Beyond solutions, we champion the cause of sustainability, advocating
           for responsible energy consumption and fostering a culture of
           eco-conscious decision-making.
+        text_align: start
       - _bookshop_name: icon-card
         image:
           image_url: /uploads/community.svg
@@ -78,6 +80,7 @@ content_blocks:
           mission extends beyond software, as we engage, educate, and grow with
           our community, driving forward towards a shared vision of a greener
           world.
+        text_align: start
     background_color:
   - _bookshop_name: staff-feed
     heading: Meet Our Sustainability Experts

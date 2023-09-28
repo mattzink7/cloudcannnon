@@ -2,9 +2,9 @@
 title: Blog
 menu:
   main:
-    weight: 3
+    weight: 4
   footer:
-    weight: 3
+    weight: 4
 seo:
   page_title:
   meta_description:

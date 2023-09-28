@@ -11,22 +11,22 @@ seo:
 service_type: homeowners
 content_blocks:
   - _bookshop_name: hero-simple
-    heading: Operational Energy Optimization
+    heading: Smart Home Integration
     body: >-
-      Maximize efficiency without compromising sustainability with our Operational Energy Optimization. Transform how your business consumes energy, making every watt count.
+      Elevate your living experience with Smart Home Integration. Dive into the future where convenience meets sustainability, all under one roof.
     image:
-      image_url: /uploads/energy-optimization.jpg
+      image_url: /uploads/smart-home-comfort-management-system-on-tablet.jpg
       image_alt: 
     button:
       button_url: /schedule-demo/
       button_text: Schedule A Demo
       open_in_new_tab: false
   - _bookshop_name: media-text
-    heading: Elevate Efficiency, Elevate Sustainability
+    heading: Seamless, Intelligent Living
     body: >-
-      In the ever-evolving landscape of business, energy usage can either be a cost or an opportunity. Our Operational Energy Optimization service turns it into the latter. By analyzing your operations through a fine-tuned lens, we identify areas of improvement, streamline processes, and integrate cutting-edge energy-saving solutions. The result? Operations that are not only leaner and more profitable but also environmentally considerate. Partner with us and unlock the dual benefits of operational efficiency and commendable sustainability.
+      In the digital era, homes are more than just four walls—they're dynamic environments that adapt, learn, and cater to your every need. Our Smart Home Integration service transforms residences into responsive ecosystems, enhancing both comfort and energy efficiency. We incorporate state-of-the-art technologies that allow you to control lighting, temperature, security, and more, all with a simple tap or voice command. But beyond mere convenience, we focus on integration methods that promote energy savings and reduce your environmental footprint. Step into a world where your home not only understands you but also shares your vision for a greener tomorrow.
     image:
-      image_url: /uploads/green-consulting-2.jpg
+      image_url: /uploads/home-energy-audit-3.jpg
       image_alt: Trees with sunshine shining through branches
     button:
       button_url:

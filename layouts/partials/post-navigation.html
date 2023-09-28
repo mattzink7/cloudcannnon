@@ -3,7 +3,7 @@
     <div class="post-navigation flex flex-column flex-row-md flex-center flex-justify-between border-top-gray">
         <div class="post-navigation__back flex flex-column flex-center">
             {{ if eq .Section "careers" }}
-            <a href="/careers/" class="bounce-left flex flex-center"><div class="icon-md icon-stroke-primary">{{ partialCached "svg-icons/chevron-left.svg" . }}</div> Back to all open positions</a>
+            <a href="/careers/" class="bounce-left flex flex-center"><div class="icon-md icon-stroke-primary">{{ partialCached "svg-icons/chevron-left.svg" . }}</div> Back to all careers</a>
             {{ else if eq .Section "about" }}
             <a href="/about/" class="bounce-left flex flex-center"><div class="icon-md icon-stroke-primary">{{ partialCached "svg-icons/chevron-left.svg" . }}</div> Back to all staff</a>
             {{ else }}

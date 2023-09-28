@@ -7,12 +7,17 @@
   border-radius: $radius;
   padding-block: $ic-300;
   padding-inline: $ic-600;
+  transition: transform $transition;
 }
 
 .card__category {
   position: relative;
   z-index: 2;
   font-size: $ic--100;
+}
+
+.card__title a {
+  transition: color $transition;
 }
 
 .card a::after {
@@ -25,17 +30,19 @@
   z-index: 1;
 }
 
-// .card .accent-line {
-//   position: initial;
-// }
-
 .card .accent-line::before {
-  // top: 35px;
   left: -25px;
-  // height: 80%;
 }
 
 .card .accent-line::after {
-  // bottom: 25px;
   left: -25px;
+}
+
+.card:hover, 
+.card:focus {
+  transform: translateY(-5px);
+
+  .card__title a {
+    color: $secondary-color;
+  }
 }

@@ -28,7 +28,7 @@ content_blocks:
     body: >-
       Sustainable analytics empower businesses with actionable insights into their energy consumption patterns. By harnessing data-driven solutions, businesses can identify inefficiencies, implement targeted optimizations, and ultimately reduce costs while contributing to a more eco-conscious future.
     image:
-      image_url: /uploads/business-1.jpg
+      image_url: /uploads/business.svg
       image_alt: Trees with sunshine shining through branches
     button:
       button_url: /services/business/

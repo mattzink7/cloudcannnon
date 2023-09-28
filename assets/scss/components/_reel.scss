@@ -18,6 +18,10 @@
   scroll-snap-align: start;
 }
 
+.reel:focus {
+  outline: 4px solid $primary-color;
+}
+
 .reel::-webkit-scrollbar {
   block-size: 1rem;
 }

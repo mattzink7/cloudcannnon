@@ -6,22 +6,24 @@
             <div class="col">
                 <h2>Pages</h2>
                 <ul>
-                    {{ range where .Site.Pages "Type" "not in" (slice "resources" "categories" "tags") }}
+                    {{ range where .Site.Pages "Type" "not in" (slice "blog" "categories" "tags") }}
                         {{ if not (in (slice "Thank You") .Title) }}
-                        <li>
-                            <a href="{{ .RelPermalink }}" title="{{ .Name }}">{{ .Name | markdownify }}</a>
-                        </li>
+                            <li>
+                                <a href="{{ .RelPermalink }}" title="{{ .Name }}">{{ .Name | markdownify }}</a>
+                            </li>
                         {{ end }}
                     {{ end }}
                 </ul>
             </div>
             <div class="col">
-                <h2>Resources</h2>
+                <h2>Posts</h2>
                 <ul>
                     {{ $pages := .Site.RegularPages }}
-                    {{ $blog := where $pages "Type" "resources" }}
+                    {{ $blog := where $pages "Type" "blog" }}
                     {{ range $blog }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        <li>
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        </li>
                     {{ end }}
                 </ul>
             </div>
