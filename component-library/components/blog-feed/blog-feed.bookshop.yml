@@ -12,6 +12,7 @@ blueprint:
   heading: ""
   body: ""
   button:
+    enabled: true
     button_url: /blog/
     button_text: View All Posts
     open_in_new_tab: false

@@ -49,7 +49,6 @@
   width: 100%;
   transition: color $transition;
   font-family: $secondary-font;
-  background-image: none;
 
   &:hover,
   &:focus {
@@ -214,7 +213,6 @@
     font-family: $secondary-font;
     font-size: 1.2rem;
     transition: $transition;
-    background-image: none;
 
     &:hover,
     &:focus {
@@ -291,7 +289,6 @@
   display: block;
   color: $black;
   font-family: $secondary-font;
-  background-image: none;
 }
 
 .header__child-menu {

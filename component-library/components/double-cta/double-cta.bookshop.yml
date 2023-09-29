@@ -13,6 +13,7 @@ blueprint:
     heading: ""
     body: ""
     button:
+      enabled: true
       button_url: 
       button_text: 
       open_in_new_tab: false
@@ -20,6 +21,7 @@ blueprint:
     heading: ""
     body: ""
     button:
+      enabled: true
       button_url: 
       button_text: 
       open_in_new_tab: false

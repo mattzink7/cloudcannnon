@@ -24,6 +24,7 @@ content_blocks:
       image_url: /uploads/grass-1.jpg
       image_alt: Morning dew on grass
     button:
+      enabled: true
       button_url: /schedule-demo/
       button_text: Schedule A Demo
       open_in_new_tab: false

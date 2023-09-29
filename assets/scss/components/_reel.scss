@@ -1,15 +1,19 @@
-.testimonials__content {
-  grid-column: 4 / -1;
+.testimonials__content,
+.reel {
+  grid-column: 2 / -1;
+
+  @include breakpoint(md) {
+    grid-column: 4 / -1;
+  }
 }
 
 .reel {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: clamp(275px, 50vw, 500px);
+  grid-auto-columns: clamp(300px, 50vw, 500px);
   gap: $ic-600;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-  grid-column: 4 / -1;
   scrollbar-width: thin;
   scrollbar-color: #1F2526 #EBF1F2;
 }
@@ -48,6 +52,7 @@
 .reel__body {
   max-width: 30ch;
   margin-block-end: $ic-600;
+  margin-inline-end: $ic-300;
 }
 
 .reel__image {

@@ -3,9 +3,11 @@
         <div class="hero__content col margin-block-auto">
           <div class="accent-line wrapper-sm flow">
             <h1 class="no-margin" id="hero-heading">{{ .heading }}</h1>
-            <div class="flow">{{ .body }}</div>
-            {{ if .button.button_url }}
-                <a class="btn btn--primary" href="{{ .button.button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button.button_text }}</a>
+            <p>{{ .body }}</p>
+            {{ if .button.enabled }}
+              {{ with .button }}
+                  <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+              {{ end }}
             {{ end }}
           </div>
         </div>

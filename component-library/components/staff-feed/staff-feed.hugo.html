@@ -21,9 +21,9 @@
     </div>
 </section>
 {{ else }}
-<section class="block bg-{{ .background_color }}" aria-label="Featured Articles">
+<section class="block bg-{{ .background_color }}" aria-labelledby="{{ .heading | urlize }}">
     <div class="wrapper-md flow text-align-center">
-        <h2 class="max-width-none">{{ .heading }}</h2>
+        <h2 class="max-width-none" id="{{ .heading | urlize }}">{{ .heading }}</h2>
         <p class="margin-inline-auto">{{ .body | safeHTML }}</p>
         <div class="block-md">
             <ul class="grid-columns-3 gap-sm max-width-none no-margin no-padding">
