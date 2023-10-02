@@ -24,7 +24,8 @@
         "closes": ""
       }
     ],
-    "sameAs": [{{ $socialMedia := .Site.Data.site_settings.social_media }}{{ $links := slice }}{{ range $socialMedia }}{{ if .link }}{{ $links = $links | append .link }}{{ end }}{{ end }}{{ $output := delimit $links "," }}{{ $output }}]
+    "sameAs": [{{ range $index, $link := .Site.Data.site_settings.social_media }}{{ if .link }}{{ if $index }},{{ end }}"{{ .link | safeHTML }}"{{ end }}{{ end }}]
+
   },
   {
     "@context": "http://schema.org/",

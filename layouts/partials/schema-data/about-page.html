@@ -41,9 +41,8 @@
         "addressRegion": "{{ .Site.Data.site_settings.address.state }}",
         "addressCountry": "US"
       },
-      "sameAs": [{{ $socialMedia := .Site.Data.site_settings.social_media }}{{ $links := slice }}{{ range $socialMedia }}{{ if .link }}{{ $links = $links | append .link }}{{ end }}{{ end }}{{ $output := delimit $links "," }}{{ $output }}
+      "sameAs": [{{ $socialMedia := .Site.Data.site_settings.social_media }}{{ $links := slice }}{{ range $socialMedia }}{{ if .link }}"{{ $links = $links | append .link }}"{{ end }}{{ end }}{{ $output := delimit $links "," }}{{ $output }}
       ]
     }
   }
-  </script>
-  
+</script>
