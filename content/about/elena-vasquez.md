@@ -4,7 +4,7 @@ seo:
   page_title:
   meta_description: With a flair for storytelling and a finger on the pulse of market trends, Elena crafts Essentia's narrative.
   featured_image: /uploads/elena-vasquez.jpg
-  featured_image_alt:
+  featured_image_alt: Headshot of Elena Vasquez
 headshot: /uploads/elena-vasquez.jpg
 job_title: Marketing & Brand Strategist
 weight: 5

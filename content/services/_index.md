@@ -6,7 +6,7 @@ menu:
   footer:
     weight: 1
 seo:
-  page_title:
+  page_title: Sustainable Analytics for Businesses and Homeowners
   meta_description:
   featured_image:
   featured_image_alt:
@@ -35,6 +35,7 @@ content_blocks:
       image_url: /uploads/business-1.jpg
       image_alt: Trees with sunshine shining through branches
     button:
+      enabled: true
       button_url: /services/business/
       button_text: sustainability for business
       open_in_new_tab: false
@@ -52,6 +53,7 @@ content_blocks:
       image_url: /uploads/homeowners-2.jpg
       image_alt: Trees with sunshine shining through branches
     button:
+      enabled: true
       button_url: /services/homeowners/
       button_text: sustainability for homeowners
       open_in_new_tab: false
@@ -66,6 +68,7 @@ content_blocks:
         energy consumption and sustainability. If you're passionate about making
         a difference, we want you on board.
       button:
+        enabled: true
         button_url: /careers/
         button_text: View Open Positions
         open_in_new_tab: false
@@ -77,11 +80,8 @@ content_blocks:
         guide you through the features, benefits, and potential savings for your
         home or business.
       button:
+        enabled: true
         button_url: /schedule-demo/
         button_text: Schedule a Demo
         open_in_new_tab: false
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc faucibus a pellentesque sit amet. Quam viverra orci sagittis eu volutpat odio. Purus viverra accumsan in nisl nisi scelerisque eu ultrices. In iaculis nunc sed augue lacus viverra. In hac habitasse platea dictumst. Iaculis eu non diam phasellus vestibulum lorem sed. Feugiat nibh sed pulvinar proin. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Nibh venenatis cras sed felis eget. In nisl nisi scelerisque eu. Semper viverra nam libero justo laoreet sit amet cursus. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.
-
-Massa ultricies mi quis hendrerit dolor magna eget est. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Adipiscing enim eu turpis egestas pretium. Tristique senectus et netus et malesuada fames ac turpis egestas. Nam aliquam sem et tortor consequat id. Erat pellentesque adipiscing commodo elit at. Magna fermentum iaculis eu non. Convallis convallis tellus id interdum velit laoreet id. Hendrerit dolor magna eget est lorem ipsum dolor sit amet. Lorem mollis aliquam ut porttitor leo a. Mollis nunc sed id semper risus in.

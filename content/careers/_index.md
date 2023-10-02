@@ -6,8 +6,8 @@ menu:
   footer:
     weight: 3
 seo:
-  title:
-  description:
+  page_title:
+  meta_description:
   featured_image: 
   featured_image_alt:
 content_blocks:
@@ -18,7 +18,7 @@ content_blocks:
       Shape the future of sustainable living with us. Dive into a career that makes a difference every day.
     image:
       image_url: /uploads/five-people-on-laptops-working-together-1.jpg
-      image_alt: Trees with sunshine shining through branches
+      image_alt: Five people working on laptops at a shared desk
     button:
       button_url: 
       button_text:
@@ -29,7 +29,7 @@ content_blocks:
       Every position at our company is more than just a job — it's an opportunity to make a lasting impact on the planet. Our team is united by a passion for sustainability, an innovative spirit, and the desire to drive real change. As part of our crew, you'll contribute to cutting-edge green initiatives, collaborate with like-minded experts, and play a pivotal role in fostering an eco-conscious world for future generations.
     image:
       image_url: /uploads/team-working-at-a-desk-together-1.jpg
-      image_alt: Small plant in hands
+      image_alt: Team working at a desk together during a meeting
     button:
       button_url:
       button_text:
@@ -149,4 +149,18 @@ content_blocks:
         name: Miguel V.
         title: Operations Manager at TechFlow Corp.
     background_color: black
+  - _bookshop_name: cta
+    heading: >-
+      Shape the Future of Energy with Us
+    body: >-
+      At Essentia, we believe in the power of innovation and collaboration. Join a team of forward-thinkers, driven by the mission to revolutionize energy consumption and sustainability. If you’re passionate about making a difference, we want you on board.
+    image:
+      image_url: /uploads/five-people-on-laptops-working-together-1.jpg
+      image_alt: Five people working on laptops at a shared desk
+    button:
+      enabled: true
+      button_url: /apply-now/
+      button_text: Apply Now
+      open_in_new_tab: false
+    background_color: white
 ---

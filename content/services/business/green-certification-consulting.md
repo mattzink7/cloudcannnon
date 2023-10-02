@@ -27,7 +27,7 @@ content_blocks:
       In today's world, green certifications have emerged as a beacon of trust, showcasing commitment to environmental responsibility and sustainable practices. Our Green Certification Consulting service provides a holistic approach, assisting businesses and individuals in navigating the intricacies of certification processes. With our expertise, we'll help you align with industry standards, ensuring your operations not only benefit the environment but also stand out in the market. Embrace a future where sustainability and success go hand in hand.
     image:
       image_url: /uploads/green-consulting-3.jpg
-      image_alt: Trees with sunshine shining through branches
+      image_alt: 
     button:
       button_url:
       button_text:
@@ -92,6 +92,7 @@ content_blocks:
         energy consumption and sustainability. If you're passionate about making
         a difference, we want you on board.
       button:
+        enabled: true
         button_url: /careers/
         button_text: View Open Positions
         open_in_new_tab: false
@@ -103,6 +104,7 @@ content_blocks:
         guide you through the features, benefits, and potential savings for your
         home or business.
       button:
+        enabled: true
         button_url: /schedule-demo/
         button_text: Schedule a Demo
         open_in_new_tab: false

@@ -1,10 +1,11 @@
 ---
 title: Schedule Demo
+layout: demo-forms
 seo:
   page_title:
   meta_description:
-  featured_image:
-  featured_image_alt:
+  featured_image: /uploads/two-people-at-table-1.jpg
+  featured_image_alt: Two people sitting at a table together
 content_blocks:
   - _bookshop_name: hero-simple
     heading: Experience the Power of Essentia

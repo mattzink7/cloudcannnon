@@ -4,7 +4,7 @@ seo:
   page_title:
   meta_description: Sophia's passion for sustainability and technology inspired the inception of Essentia.
   featured_image: /uploads/sophia-martinez.jpg
-  featured_image_alt:
+  featured_image_alt: Headshot of Sophia Martinez
 headshot: /uploads/sophia-martinez.jpg
 job_title: Co-founder & CEO
 weight: 1

@@ -3,7 +3,11 @@
 {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
 <section class="block">
     <div class="wrapper-sm">
-      {{ partial "forms/schedule-demo-form" . }}
+      {{ if eq .Title "Schedule Demo" }}
+        {{ partial "forms/schedule-demo-form" . }}
+      {{ else }}
+        {{ partial "forms/application-form" . }}
+      {{ end }}
     </div>
 </section>
 {{ end }}

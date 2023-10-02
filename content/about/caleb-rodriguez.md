@@ -4,7 +4,7 @@ seo:
   page_title:
   meta_description: Caleb's commitment to exceptional customer experiences has defined our client relationships.
   featured_image: /uploads/caleb-rodriguez.jpg
-  featured_image_alt:
+  featured_image_alt: Headshot of Caleb Rodriguez
 headshot: /uploads/caleb-rodriguez.jpg
 job_title: Director of Customer Success
 weight: 3

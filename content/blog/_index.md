@@ -6,22 +6,8 @@ menu:
   footer:
     weight: 4
 seo:
-  page_title:
-  meta_description:
+  page_title: Sustainability Resources
+  meta_description: At Essentia, we believe in empowering our community with knowledge. Stay informed, stay sustainable, and join the conversation shaping our energy future.
   featured_image:
   featured_image_alt:
-hero: 
-  enabled: true
-  heading: Blog
-  body: 
-  button:
-    enabled: false
-    open_in_new_tab: true
-    button_url: #
-    button_text: Visit Us
-  button_2:
-    enabled: false
-    open_in_new_tab: false
-    button_url: #
-    button_text: Contact Us
 ---

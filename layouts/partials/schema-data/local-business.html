@@ -5,10 +5,10 @@
     "@context": "http://schema.org/",
     "@type": "LocalBusiness",
     "name": "{{ .Site.Data.site_settings.business_name }}",
-    "image": "{{ site.BaseURL }}{{ .Site.Data.site_settings.logo }}",
+    "image": "{{ .Site.BaseURL }}{{ .Site.Data.site_settings.logo }}",
     "priceRange": "$$$$$",
     "telephone": "{{ .Site.Data.site_settings.phone }}",
-    "url": "{{ site.BaseURL }}",
+    "url": "{{ .Site.BaseURL }}",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "{{ .Site.Data.site_settings.address.street }}",
@@ -29,7 +29,7 @@
   {
     "@context": "http://schema.org/",
     "@type": "WebSite",
-    "url": "{{ site.BaseURL }}",
+    "url": "{{ .Site.BaseURL }}",
     "potentialAction": {
       "@type": "SearchAction",
       "target": "{search_term_string}",

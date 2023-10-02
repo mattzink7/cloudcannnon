@@ -2,8 +2,8 @@
 title: Privacy Policy
 layout: privacy
 seo:
-  title:
-  description:
+  page_title:
+  meta_description:
   featured_image: 
   featured_image_alt:
 ---

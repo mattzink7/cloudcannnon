@@ -1,8 +1,8 @@
 ---
 title: Components
 seo:
-  title:
-  description:
+  page_title:
+  meta_description:
   featured_image: 
   featured_image_alt:
 layout: components

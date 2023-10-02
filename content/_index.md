@@ -1,10 +1,10 @@
 ---
 title: Home
 seo:
-  title:
-  description:
-  featured_image: 
-  featured_image_alt:
+  page_title: Sustainable Analytics Software
+  meta_description: Harness the power of cutting-edge analytics with Essentia. Our intuitive software deciphers complex energy patterns, enabling businesses and homeowners to reduce costs and minimize environmental impact.
+  featured_image: /uploads/essentia-featured-image.jpg
+  featured_image_alt: Essentia Logo
 content_blocks:
   - _bookshop_name: hero
     heading: Turn Energy Data into Sustainable Action
@@ -40,6 +40,7 @@ content_blocks:
       image_url: /uploads/business-1.jpg
       image_alt: Trees with sunshine shining through branches
     button:
+      enabled: true
       button_url: /services/business/
       button_text: sustainability for business
       open_in_new_tab: false
@@ -57,6 +58,7 @@ content_blocks:
       image_url: /uploads/homeowners-2.jpg
       image_alt: Trees with sunshine shining through branches
     button:
+      enabled: true
       button_url: /services/homeowners/
       button_text: sustainability for homeowners
       open_in_new_tab: false
@@ -74,6 +76,15 @@ content_blocks:
       button_text: View All Posts
       open_in_new_tab: false
     background_color: white
+  - _bookshop_name: testimonial
+    body: >-
+      "At first, I was skeptical about how much Essentia's real-time monitoring could benefit us. But within months, it became clear. We became empowered to make eco-friendly choices, reducing both our bills and our carbon footprint. Every homeowner should give it a try!"
+    image:
+      image_url: /uploads/carl-1.jpg
+      image_alt: Headshot of Carl
+    name: "Carl R."
+    title: "Homeowner"
+    background_color: black
   - _bookshop_name: numbers
     heading: Driving Sustainable Businesses Forward
     numbers:
@@ -103,6 +114,7 @@ content_blocks:
         energy consumption and sustainability. If you're passionate about making
         a difference, we want you on board.
       button:
+        enabled: true
         button_url: /careers/
         button_text: View Open Positions
         open_in_new_tab: false
@@ -114,6 +126,7 @@ content_blocks:
         guide you through the features, benefits, and potential savings for your
         home or business.
       button:
+        enabled: true
         button_url: /schedule-demo/
         button_text: Schedule a Demo
         open_in_new_tab: false

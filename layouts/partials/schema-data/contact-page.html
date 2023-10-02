@@ -13,7 +13,7 @@
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "{{ site.BaseURL }}",
+            "@id": "{{ .Site.BaseURL }}",
             "name": "Home"
           }
         },
@@ -32,7 +32,7 @@
       "name": "{{ .Site.Data.site_settings.business_name }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ site.BaseURL }}uploads{{ .Site.Data.site_settings.logo }}"
+        "url": "{{ .Site.BaseURL }}{{ .Site.Data.site_settings.logo }}"
       },
       "address": {
         "@type": "PostalAddress",

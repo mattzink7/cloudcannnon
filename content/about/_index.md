@@ -6,15 +6,14 @@ menu:
   footer:
     weight: 2
 seo:
-  title:
-  description:
+  page_title: Sustainability Company in the US
+  meta_description:
   featured_image: 
   featured_image_alt:
 content_blocks:
   - _bookshop_name: hero-simple
     heading: >-
-      Empowering businesses and homeowners with sustainable energy solutions
-      since 2013.
+      Empowering sustainability since 2013.
     body: >-
       Essentia stands at the forefront of energy optimization, using innovative
       technology to make energy consumption more efficient and eco-friendly. Our
@@ -53,7 +52,7 @@ content_blocks:
       - _bookshop_name: icon-card
         image:
           image_url: /uploads/technology.svg
-          image_alt:
+          image_alt: 
         heading: Empowering Through Technology
         body: >-
           We harness the power of cutting-edge software to provide intuitive and
@@ -119,6 +118,7 @@ content_blocks:
         energy consumption and sustainability. If you're passionate about making
         a difference, we want you on board.
       button:
+        enabled: true
         button_url: /careers/
         button_text: View Open Positions
         open_in_new_tab: false
@@ -130,6 +130,7 @@ content_blocks:
         guide you through the features, benefits, and potential savings for your
         home or business.
       button:
+        enabled: true
         button_url: /schedule-demo/
         button_text: Schedule a Demo
         open_in_new_tab: false

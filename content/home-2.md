@@ -1,10 +1,10 @@
 ---
 title: Home 2
 seo:
-  title:
-  description:
-  featured_image: 
-  featured_image_alt:
+  page_title: Sustainable Analytics Software
+  meta_description: Harness the power of cutting-edge analytics with Essentia. Our intuitive software deciphers complex energy patterns, enabling businesses and homeowners to reduce costs and minimize environmental impact.
+  featured_image: /uploads/essentia-featured-image.jpg
+  featured_image_alt: Essentia Logo
 content_blocks:
   - _bookshop_name: hero
     heading: Turn Energy Data into Sustainable Action
@@ -80,6 +80,7 @@ content_blocks:
       body: >-
         Are you passionate about sustainable technology and making a positive impact on the environment? Explore career opportunities at Essentia and be part of a dynamic team committed to revolutionizing the energy industry. Check out our current openings and apply today!
       button:
+        enabled: true
         button_url: /careers/
         button_text: View Open Positions
         open_in_new_tab: false
@@ -88,6 +89,7 @@ content_blocks:
       body: >-
         Experience the power of Essentia's energy analytics firsthand. Request a personalized demo and discover how our innovative solutions can help you optimize energy consumption, save costs, and promote sustainability. Get started on your journey towards a greener future today!
       button:
+        enabled: true
         button_url: /schedule-demo/
         button_text: Schedule a Demo
         open_in_new_tab: false

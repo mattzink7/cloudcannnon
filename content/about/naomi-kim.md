@@ -4,7 +4,7 @@ seo:
   page_title:
   meta_description: Naomi is the genius behind Essentia's cutting-edge software solutions.
   featured_image: /uploads/naomi-kim.jpg
-  featured_image_alt:
+  featured_image_alt: Headshot of Naomi Kim
 headshot: /uploads/naomi-kim.jpg
 job_title: Lead Software Engineer
 weight: 4

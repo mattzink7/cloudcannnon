@@ -16,7 +16,7 @@ content_blocks:
       Discover the power of real-time energy monitoring with our Customizable Energy Dashboard. Tailored to your unique needs, it provides actionable insights to drive sustainability and reduce costs.
     image:
       image_url: /uploads/energy-dashboard-4.jpg
-      image_alt: 
+      image_alt: An example energy dashboard on a screen
     button:
       button_url: /schedule-demo/
       button_text: Schedule A Demo
@@ -27,7 +27,7 @@ content_blocks:
       Introducing our Customizable Energy Dashboard - a state-of-the-art platform designed for those who seek a comprehensive understanding of their energy consumption patterns. By harnessing the power of advanced analytics, our dashboard empowers users to make informed decisions, pinpoint inefficiencies, and craft strategic energy-saving plans. Whether you're managing a sprawling corporate facility or a cozy home, our tool provides clarity and control over your energy usage, all in a user-friendly interface.
     image:
       image_url: /uploads/energy-dashboard-3.jpg
-      image_alt: Trees with sunshine shining through branches
+      image_alt: An example energy dashboard on a screen
     button:
       button_url:
       button_text:
@@ -92,6 +92,7 @@ content_blocks:
         energy consumption and sustainability. If you're passionate about making
         a difference, we want you on board.
       button:
+        enabled: true
         button_url: /careers/
         button_text: View Open Positions
         open_in_new_tab: false
@@ -103,6 +104,7 @@ content_blocks:
         guide you through the features, benefits, and potential savings for your
         home or business.
       button:
+        enabled: true
         button_url: /schedule-demo/
         button_text: Schedule a Demo
         open_in_new_tab: false
