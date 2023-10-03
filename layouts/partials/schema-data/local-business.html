@@ -13,6 +13,7 @@
       "@type": "PostalAddress",
       "streetAddress": "{{ .Site.Data.site_settings.address.street }}",
       "addressLocality": "{{ .Site.Data.site_settings.address.city }}",
+      "postalCode": "{{ .Site.Data.site_settings.address.zip }}",
       "addressRegion": "{{ .Site.Data.site_settings.address.state }}",
       "addressCountry": "US"
     },
@@ -25,7 +26,6 @@
       }
     ],
     "sameAs": [{{ range $index, $link := .Site.Data.site_settings.social_media }}{{ if .link }}{{ if $index }},{{ end }}"{{ .link | safeHTML }}"{{ end }}{{ end }}]
-
   },
   {
     "@context": "http://schema.org/",

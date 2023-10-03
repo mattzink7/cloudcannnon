@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://modest-polar.cloudvent.net"
 languageCode = "en-us"
 title = "Essentia"
 enableRobotsTXT = true
