@@ -10,11 +10,12 @@
   position: relative;
 }
 
-// .hero .hero__image-grid img:not(.background-circles){
-//   width: 100%;
-//   height: 100%;
-//   object-fit: cover;
-// }
+.hero .hero__image-grid img:not(.background-circles){
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
 
 .hero .hero__image-grid-1 {
   grid-area: 1 / 1 / 4 / 3;
