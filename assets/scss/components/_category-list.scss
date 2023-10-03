@@ -11,7 +11,7 @@
   transform-origin: top;
   transition: $transition;
   padding: $ic-300;
-  width: 100%;
+  width: max-content;
 
   @include breakpoint(md) {
     columns: 2;

@@ -11,19 +11,23 @@
     object-fit: cover;
 }
 
-.decorative-image .background-circles {
-    top: 50px;
+.decorative-image .decorative-image__circles {
+    top: 25px;
     right: -50px;
+
+    @include breakpoint(md) {
+        top: 50px;
+    }
 }
 
-.background-circles {
+.decorative-image__circles {
     position: absolute;
     z-index: 1;
     width: auto;
     height: 100%;
 }
   
-.hero .background-circles {
+.hero .decorative-image__circles {
     top: 0;
     left: 50%;
     z-index: -1;
@@ -40,6 +44,8 @@
     }
 }
 
-.parent-page-about:not(.page-about) .decorative-image .background-circles {
-    top: 75px;
+@include breakpoint(md) {
+    .parent-page-about:not(.page-about) .decorative-image .decorative-image__circles {
+        top: 75px;
+    }
 }

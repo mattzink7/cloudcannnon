@@ -62,6 +62,7 @@ module.exports = {
         'text-align-start',
         'text-align-center',
         'text-align-end',
+        'iframe',
       ],
     }),
   ],
