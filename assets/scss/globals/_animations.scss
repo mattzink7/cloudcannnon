@@ -49,3 +49,16 @@
         }
     }
 }
+
+.animate-slowpulse {
+    animation: slowpulse 6s ease-in-out infinite alternate;
+
+    @keyframes slowpulse {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.1);
+        }
+    }
+}

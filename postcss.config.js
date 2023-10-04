@@ -63,6 +63,7 @@ module.exports = {
         'text-align-center',
         'text-align-end',
         'iframe',
+        'hero--split-hero',
       ],
     }),
   ],
