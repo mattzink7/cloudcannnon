@@ -9,7 +9,7 @@
         <div class="reel p-relative" tabindex="0">
             {{ range .testimonials }}
             <div class="reel__testimonial">
-                <p class="reel__body">"{{ .body }}"</p>
+                <p class="reel__body">"{{ .body | markdownify }}"</p>
                 <img class="reel__image" src="{{ .image }}" alt="Headshot of {{ .title }}, {{ .name }}">
                 <p class="text-style-slub">{{ .name }}</p>
                 <p class="font-size-xs">{{ .title }}</p>

@@ -37,7 +37,7 @@
 .staff-image {
     aspect-ratio: 1/1;
     max-width: 500px;
-    margin-left: auto;
+    margin-inline: auto;
 
     @include breakpoint(md) {
         margin-top: -250px;

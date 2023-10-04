@@ -56,8 +56,8 @@
 }
 
 .reel__image {
-  height: 100px;
-  width: 100px;
+  block-size: 100px;
+  inline-size: 100px;
   object-fit: cover;
   border-radius: 50px;
   margin-block-end: $ic-200;

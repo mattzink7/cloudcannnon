@@ -28,6 +28,8 @@ content_blocks:
     image:
       image_url: /uploads/woman-holding-green-earth-1.jpg
       image_alt: Trees with sunshine shining through branches
+    decorative_image: 
+      enabled: true
     button:
       button_url:
       button_text:

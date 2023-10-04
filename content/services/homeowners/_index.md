@@ -38,6 +38,7 @@ content_blocks:
       community with knowledge. Stay informed, stay sustainable, and join the
       conversation shaping our energy future.
     button:
+      enabled: true
       button_url: /blog/
       button_text: View All Posts
       open_in_new_tab: false

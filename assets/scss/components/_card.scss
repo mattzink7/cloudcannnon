@@ -31,10 +31,7 @@
   z-index: 1;
 }
 
-.card .accent-line::before {
-  left: -25px;
-}
-
+.card .accent-line::before,
 .card .accent-line::after {
   left: -25px;
 }

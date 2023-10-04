@@ -2,7 +2,7 @@
 title: About
 menu:
   main:
-    weight: 2
+    weight: 3
   footer:
     weight: 2
 seo:
@@ -40,6 +40,8 @@ content_blocks:
     image:
       image_url: /uploads/plant-in-hands-1.jpg
       image_alt: Small plant in hands
+    decorative_image: 
+      enabled: true
     button:
       button_url:
       button_text:

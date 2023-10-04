@@ -3,9 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Hero"
-  description:
-  icon:
-  tags: []
+  description: Homepage hero block
+  icon: auto_fix_high
 
 # Defines the structure of this component, as well as the default values
 blueprint:

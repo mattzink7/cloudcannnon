@@ -11,7 +11,9 @@
         </div>
         <div class="decorative-image col">
             <img class="decorative-image__image rounded-image" src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="600" height="400">
-            <img class="decorative-image__circles background-circles" src="/uploads/circles-background-square.svg" alt="">
+            {{ if .decorative_image.enabled }}
+                <img class="decorative-image__circles background-circles" src="/uploads/circles-background-square.svg" alt="">
+            {{ end }}
         </div>
     </div>
 </section>

@@ -10,7 +10,7 @@
 .number::before {
     content: "";
     position: absolute;
-    inset-block-start: 0px;
+    top: 0;
     block-size: 2px;
     inline-size: 100%;
     z-index: 1;

@@ -1,8 +1,8 @@
-<section class="cta cta--double block" aria-labelledby="{{ .heading | urlize }}">
+<section class="cta cta--double block" aria-labelledby="{{ .cta_left.heading | urlize }}">
     <div class="wrapper-lg columns gap-lg">
         <div class="accent-line col">
             <div class="wrapper-sm flow">
-                <h2 id="{{ .heading | urlize }}">{{ .cta_left.heading }}</h2>
+                <h2 id="{{ .cta_left.heading | urlize }}">{{ .cta_left.heading }}</h2>
                 <p>{{ .cta_left.body | markdownify }}</p>
                 {{ if .cta_left.button.enabled }}
                     {{ with .cta_left.button }}

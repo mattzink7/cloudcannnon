@@ -3,9 +3,8 @@ spec:
   structures:
     - content_blocks
   label: Numbers
-  description: Numbers section
+  description: Numbers block
   icon: poll
-  tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
@@ -17,7 +16,6 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  heading:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

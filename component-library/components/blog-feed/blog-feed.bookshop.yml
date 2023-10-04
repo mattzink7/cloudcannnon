@@ -3,9 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Blog Feed"
-  description:
-  icon:
-  tags: []
+  description: Blog feed block
+  icon: post_add
 
 # Defines the structure of this component, as well as the default values
 blueprint:

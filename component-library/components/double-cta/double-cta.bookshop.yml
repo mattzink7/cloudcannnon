@@ -3,9 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Double CTA"
-  description:
-  icon:
-  tags: []
+  description: Two column double call to action block
+  icon: notifications
 
 # Defines the structure of this component, as well as the default values
 blueprint:

@@ -3,9 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Hero"
-  description:
-  icon:
-  tags: []
+  description: A generic hero block for interior pages
+  icon: auto_fix_normal
 
 # Defines the structure of this component, as well as the default values
 blueprint:

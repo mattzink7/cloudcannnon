@@ -1,5 +1,8 @@
 ---
-title: Home 2
+title: Home Alt
+menu:
+  main:
+    parent: Home
 seo:
   page_title: Sustainable Analytics Software
   meta_description: Harness the power of cutting-edge analytics with Essentia. Our intuitive software deciphers complex energy patterns, enabling businesses and homeowners to reduce costs and minimize environmental impact.
@@ -11,15 +14,16 @@ content_blocks:
     body: >-
       Unlock the potential of your energy data with Essentia's cutting-edge software solutions. Our platform provides real-time insights and actionable recommendations, empowering businesses and homeowners to optimize energy consumption for a greener, more sustainable future.
     image_1:
-      image_url: /uploads/trees-1.jpg
+      image_url: /uploads/home-energy-audit.svg
       image_alt: Trees with sunshine shining through branches
     image_2:
-      image_url: /uploads/analytics-1.jpg
+      image_url: /uploads/custom-analytics-dashboard.svg
       image_alt: Analytics data on computer screen
     image_3:
-      image_url: /uploads/grass-1.jpg
+      image_url: /uploads/smart-home.svg
       image_alt: Morning dew on grass
     button:
+      enabled: true
       button_url: /schedule-demo/
       button_text: Schedule A Demo
       open_in_new_tab: false
@@ -30,7 +34,10 @@ content_blocks:
     image:
       image_url: /uploads/business.svg
       image_alt: Trees with sunshine shining through branches
+    decorative_image: 
+      enabled: false
     button:
+      enabled: true
       button_url: /services/business/
       button_text: sustainability for business
       open_in_new_tab: false
@@ -41,9 +48,12 @@ content_blocks:
     body: >-
       Empower your home with Essentia's sustainable analytics, providing you with real-time insights into your energy consumption. Take control of your energy usage, identify areas for improvement, and watch as your home becomes more efficient, saving you money while contributing to a greener planet.
     image:
-      image_url: /uploads/homeowners-2.jpg
+      image_url: /uploads/home-energy-audit-2.svg
       image_alt: Trees with sunshine shining through branches
+    decorative_image: 
+      enabled: false
     button:
+      enabled: true
       button_url: /services/homeowners/
       button_text: sustainability for homeowners
       open_in_new_tab: false
@@ -54,6 +64,7 @@ content_blocks:
     body: >-
       Stay informed and inspired with our regularly updated blog. Discover the latest developments in sustainable technology, energy-saving tips, and industry trends. Our experts share valuable insights to help you make informed decisions on your journey towards a greener, more efficient future.
     button:
+      enabled: true
       button_url: /blog/
       button_text: View All Posts
       open_in_new_tab: false

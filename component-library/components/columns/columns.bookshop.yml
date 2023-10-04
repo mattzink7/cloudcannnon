@@ -3,9 +3,8 @@ spec:
   structures:
     - content_blocks
   label: Columns
-  description: Flexible Columns
-  icon: poll
-  tags: []
+  description: Flexible columns block
+  icon: view_column
 
 # Defines the structure of this component, as well as the default values
 blueprint:
@@ -15,17 +14,6 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  heading: 
-  columns:
-    - heading: Our Mission
-      body: llum similique ducimus accusamus laudantium praesentium, impedit quaerat,
-        itaque maxime sunt deleniti voluptas distinctio.
-    - heading: Vision
-      body: llum similique ducimus accusamus laudantium praesentium, impedit quaerat,
-        itaque maxime sunt deleniti voluptas distinctio.
-    - heading: Our Approach
-      body: llum similique ducimus accusamus laudantium praesentium, impedit quaerat,
-        itaque maxime sunt deleniti voluptas distinctio.
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

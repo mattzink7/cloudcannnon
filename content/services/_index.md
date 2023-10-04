@@ -2,7 +2,7 @@
 title: Services
 menu:
   main:
-    weight: 1
+    weight: 2
   footer:
     weight: 1
 seo:
@@ -34,6 +34,8 @@ content_blocks:
     image:
       image_url: /uploads/business-1.jpg
       image_alt: Trees with sunshine shining through branches
+    decorative_image: 
+      enabled: true
     button:
       enabled: true
       button_url: /services/business/
@@ -52,6 +54,8 @@ content_blocks:
     image:
       image_url: /uploads/homeowners-2.jpg
       image_alt: Trees with sunshine shining through branches
+    decorative_image: 
+      enabled: true
     button:
       enabled: true
       button_url: /services/homeowners/

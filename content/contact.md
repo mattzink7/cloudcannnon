@@ -3,7 +3,7 @@ title: Contact
 layout: contact
 menu:
   main:
-    weight: 5
+    weight: 6
   footer:
     weight: 5
 seo:

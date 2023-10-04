@@ -16,16 +16,10 @@
   @include breakpoint(sm) {
     font-size: $ic--100;
   }
-
-  &:hover,
-  &:focus {
-    transition: $transition;
-  }
 }
 
-.btn--primary {
-  color: $black;
-  // background-color: $primary-color;
+.btn--primary,
+.btn--secondary {
   transition: $transition;
 
   &::before {
@@ -36,7 +30,6 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-image: linear-gradient(to right,$primary-color 0%,$secondary-color 15%,$secondary-color 85%,$primary-color 100%);
     background-size: 300% 100%;
     border-radius: $radius;
     transition: $transition;
@@ -44,8 +37,6 @@
 
   &:hover,
   &:focus {
-    // color: $white;
-    // background-color: $secondary-color;
 
     &::before {
       background-position: 100% 0;
@@ -53,14 +44,19 @@
   }
 }
 
+.btn--primary {
+  color: $black;
+
+  &::before {
+    background-image: linear-gradient(to right,$primary-color 0%,$secondary-color 15%,$secondary-color 85%,$primary-color 100%);
+  }
+}
+
 .btn--secondary {
   color: $white;
-  background-color: $secondary-color;
-  transition: $transition;
 
-  &:hover,
-  &:focus {
-    color: $white;
+  &::before {
+    background-image: linear-gradient(to right,$black 0%,$black-2 15%,$black-2 85%,$black 100%);
   }
 }
 

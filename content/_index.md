@@ -1,5 +1,8 @@
 ---
 title: Home
+menu:
+  main:
+    weight: 1
 seo:
   page_title: Sustainable Analytics Software
   meta_description: Harness the power of cutting-edge analytics with Essentia. Our intuitive software deciphers complex energy patterns, enabling businesses and homeowners to reduce costs and minimize environmental impact.
@@ -39,6 +42,8 @@ content_blocks:
     image:
       image_url: /uploads/business-1.jpg
       image_alt: Trees with sunshine shining through branches
+    decorative_image: 
+      enabled: true
     button:
       enabled: true
       button_url: /services/business/
@@ -57,6 +62,8 @@ content_blocks:
     image:
       image_url: /uploads/homeowners-2.jpg
       image_alt: Trees with sunshine shining through branches
+    decorative_image: 
+      enabled: true
     button:
       enabled: true
       button_url: /services/homeowners/
@@ -72,6 +79,7 @@ content_blocks:
       community with knowledge. Stay informed, stay sustainable, and join the
       conversation shaping our energy future.
     button:
+      enabled: true
       button_url: /blog/
       button_text: View All Posts
       open_in_new_tab: false

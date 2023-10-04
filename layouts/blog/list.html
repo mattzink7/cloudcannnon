@@ -9,7 +9,7 @@
   <div class="wrapper-lg flex flex-justify-between">
     {{ partial "blog/category-filter" . }}
   </div>
-  <ul class="blog--grid wrapper-lg gap-sm">
+  <ul class="auto-grid wrapper-lg gap-sm">
     {{ $paginator := .Paginate (where .Site.RegularPages "Section" "blog") }}
     {{ range $paginator.Pages }}
         {{ .Render "blog-card" }}

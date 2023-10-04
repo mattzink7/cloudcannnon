@@ -28,6 +28,8 @@ content_blocks:
     image:
       image_url: /uploads/energy-dashboard-3.jpg
       image_alt: An example energy dashboard on a screen
+    decorative_image: 
+      enabled: true
     button:
       button_url:
       button_text:

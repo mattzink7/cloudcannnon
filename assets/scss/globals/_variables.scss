@@ -1,17 +1,17 @@
 // Colors
-// $primary-color: #02b789;
-$primary-color: #3daf5b;
-$secondary-color: #61E183;
+$primary-color: #34a854;
+$secondary-color: #3CC261;
 $light-gray: #f6f6f6;
 $gray: #a8a8a8;
 $black: #1a1511;
+$black-2: #1e1a16;
 $white: #ffffff;
 
 // Fonts
 $primary-font: 'IBM Plex Sans', sans-serif;
 $secondary-font: 'IBM Plex Sans', sans-serif;
 
-$mobile-header: 96px;
+$mobile-header: 76px;
 $desktop-header: 99px;
 
 // Scale and rhythm based on a major third
@@ -32,6 +32,7 @@ $ic-900: 1rem * $scale * $scale * $scale * $scale * $scale * $scale * $scale *
 $ic-1000: 1rem * $scale * $scale * $scale * $scale * $scale * $scale * $scale *
   $scale * $scale;
 
+// Line lengths
 $measure-short: 60ch;
 $measure: 80ch;
 $measure-long: 90ch;

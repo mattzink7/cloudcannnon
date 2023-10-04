@@ -67,6 +67,21 @@ _inputs:
         - black
         - gray
         - white
+  text_align:
+    type: select
+    comment: Choose between start, center or end text alignments.
+    options:
+      values:
+        - start
+        - center
+        - end
+  text_column_position:
+    type: select
+    comment: Choose between left and right text column position
+    options:
+      values:
+        - left
+        - right
   body:
     type: markdown
   button.button_url:

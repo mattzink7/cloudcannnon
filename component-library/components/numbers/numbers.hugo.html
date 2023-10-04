@@ -5,7 +5,7 @@
 			{{ range .numbers }}
 				<div class="number col flow">
 					<h3>{{ .heading }}</h3>
-					<p class="fw-500">{{ .body | safeHTML }}</p>
+					<p class="fw-500">{{ .body | markdownify }}</p>
 				</div>
 			{{ end }}
 		</div>

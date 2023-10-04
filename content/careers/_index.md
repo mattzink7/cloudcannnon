@@ -2,7 +2,7 @@
 title: Careers
 menu:
   main:
-    weight: 3
+    weight: 4
   footer:
     weight: 3
 seo:
@@ -30,6 +30,8 @@ content_blocks:
     image:
       image_url: /uploads/team-working-at-a-desk-together-1.jpg
       image_alt: Team working at a desk together during a meeting
+    decorative_image: 
+      enabled: true
     button:
       button_url:
       button_text:

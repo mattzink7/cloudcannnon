@@ -28,6 +28,8 @@ content_blocks:
     image:
       image_url: /uploads/green-consulting-3.jpg
       image_alt: 
+    decorative_image: 
+      enabled: true
     button:
       button_url:
       button_text:

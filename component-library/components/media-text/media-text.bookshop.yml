@@ -3,9 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Media & Text"
-  description:
-  icon:
-  tags: []
+  description: Media & text block
+  icon: perm_media
 
 # Defines the structure of this component, as well as the default values
 blueprint:
@@ -20,6 +19,8 @@ blueprint:
     button_text: 
     open_in_new_tab: false
   background_color: gray
+  decorative_image: 
+    enabled: true
   text_column_position: left
 
 # Overrides any fields in the blueprint when viewing this component in the component browser

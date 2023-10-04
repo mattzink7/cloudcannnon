@@ -3,9 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Full Width CTA"
-  description:
-  icon:
-  tags: []
+  description: Full-width call to action block
+  icon: notifications
 
 # Defines the structure of this component, as well as the default values
 blueprint:

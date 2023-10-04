@@ -21,8 +21,8 @@
 .image-card__image {
   position: relative;
   height: 400px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
   overflow: hidden;
 }
 
@@ -31,9 +31,9 @@
   display: block;
   height: 100%;
   width: 100%;
+  position: absolute;
   top: 0;
   left: 0;
-  position: absolute;
   pointer-events: none;
   z-index: 3;
   background: radial-gradient(circle,$primary-color,$black);
@@ -43,11 +43,8 @@
 }
 
 .image-card__image img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  block-size: 100%;
   object-fit: cover;
-  transition: $transition;
 }
 
 .image-card__content {
@@ -60,11 +57,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  block-size: 100%;
+  inline-size: 100%;
   z-index: 1;
 }
 
 .parent-page-services .image-card__image {
-  height: 250px;
+  block-size: 250px;
 }

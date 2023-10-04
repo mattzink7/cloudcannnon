@@ -3,9 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Staff Feed"
-  description:
-  icon:
-  tags: []
+  description: Staff feed block
+  icon: emoji_people
 
 # Defines the structure of this component, as well as the default values
 blueprint:

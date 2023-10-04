@@ -2,7 +2,7 @@
     <div class="cta__content block margin-block-auto col">
       <div class="wrapper-sm flow">
         <h2 class="h1" id="{{ .heading | urlize }}">{{ .heading }}</h2>
-        <p>{{ .body }}</p>
+        <p>{{ .body | markdownify }}</p>
         {{ if .button.enabled }}
             {{ with .button }}
                 <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>

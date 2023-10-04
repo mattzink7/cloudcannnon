@@ -3,10 +3,8 @@ spec:
   structures:
     - content_blocks
   label: Intro
-  description: Generic intro content block
-  icon: wysiwyg
-  tags:
-    - Text
+  description: A simple one column intro content block
+  icon: handshake
 
 # Defines the structure of this component, as well as the default values
 blueprint:
@@ -22,7 +20,6 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  body:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

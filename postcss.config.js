@@ -43,7 +43,7 @@ module.exports = {
         'h5',
         'h6',
         'btn--active',
-        'blog--grid',
+        'auto-grid',
         'media-text-block',
         'media-text-block__image',
         'media-text-block--text-left',

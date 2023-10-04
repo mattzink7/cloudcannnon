@@ -28,6 +28,8 @@ content_blocks:
     image:
       image_url: /uploads/home-energy-audit-3.jpg
       image_alt: Trees with sunshine shining through branches
+    decorative_image: 
+      enabled: true
     button:
       button_url:
       button_text:

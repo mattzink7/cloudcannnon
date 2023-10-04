@@ -3,7 +3,7 @@
         <div class="hero__content col margin-block-auto">
           <div class="accent-line wrapper-sm flow">
             <h1 class="no-margin" id="hero-heading">{{ .heading }}</h1>
-            <p>{{ .body }}</p>
+            <p>{{ .body | markdownify }}</p>
             {{ if .button.enabled }}
               {{ with .button }}
                   <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>

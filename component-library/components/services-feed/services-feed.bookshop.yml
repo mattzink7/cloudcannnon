@@ -3,9 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Services Feed"
-  description:
-  icon:
-  tags: []
+  description: Services feed block
+  icon: work
 
 # Defines the structure of this component, as well as the default values
 blueprint:
