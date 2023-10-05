@@ -1,5 +1,5 @@
 ---
-title: Home Alt
+title: Home Illustrated
 menu:
   main:
     parent: Home

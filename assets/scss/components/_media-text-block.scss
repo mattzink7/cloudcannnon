@@ -14,3 +14,36 @@
     right: -50px;
 }
 
+.page-clean-energy-home .media-text-block--text-right,
+.page-clean-energy-home .media-text-block--text-left {
+    position: relative;
+}
+
+.page-clean-energy-home .media-text-block--text-right::after,
+.page-clean-energy-home .media-text-block--text-left::after {
+    content: "";
+    position: absolute;
+    inline-size: 60%;
+    block-size: 45%;
+    background-color: $primary-color;
+    z-index: 1;
+  
+    @include breakpoint(md) {
+      inline-size: 30%;
+      block-size: 100%;
+    }
+}
+
+.page-clean-energy-home .media-text-block--text-right::after {
+    top: 0;
+    left: 0;
+}
+
+.page-clean-energy-home .media-text-block--text-left::after {
+    top: 55%;
+    right: 0;
+
+    @include breakpoint(md) {
+        top: 0;
+    }
+}

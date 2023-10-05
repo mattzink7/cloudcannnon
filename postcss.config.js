@@ -21,6 +21,7 @@ module.exports = {
         'page-home',
         'page-about',
         'page-contact',
+        'page-clean-energy-home',
         'parent-page-home',
         'parent-page-about',
         'parent-page-services',

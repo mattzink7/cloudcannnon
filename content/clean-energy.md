@@ -12,11 +12,7 @@ content_blocks:
   - _bookshop_name: hero-split
     heading: We Are in Business to Help Our Planet
     body: >-
-      Harness the power of cutting-edge analytics with Essentia. Our intuitive
-      software deciphers complex energy patterns, enabling businesses and
-      homeowners to reduce costs and minimize environmental impact. Dive deep
-      into real-time insights, make informed decisions, and lead the charge
-      towards a sustainable future.
+      Harnessing the power of nature, we provide sustainable energy solutions that light up homes, power businesses, and protect our Earth's future. Join us in making a greener tomorrow, today.
     image:
       image_url: /uploads/windmills-in-field.jpg
       image_alt: Clean energy being produced by windmills in a field
@@ -26,18 +22,14 @@ content_blocks:
       button_text: Schedule A Demo
       open_in_new_tab: false
   - _bookshop_name: media-text
-    heading: For Business
+    heading: Empowering a Sustainable Future Through Clean Energy
     body: >-
-      In today's competitive landscape, sustainable analytics provides
-      businesses a strategic edge. With Essentia, companies can uncover hidden
-      inefficiencies, adapt to evolving energy trends, and significantly reduce
-      operational costs. Transform your energy data into tangible savings and
-      sustainable solutions.
+      At Essentia, we're not just a clean energy provider; we're visionaries on a mission. By offering cutting-edge renewable energy solutions, we empower individuals and businesses to make environmentally conscious decisions every day. We understand the challenges of the modern world and the increasing need for sustainable energy. That's why our solutions are designed not only to power today but to safeguard our planet for generations to come. Partner with us and discover the difference of clean, reliable, and future-focused energy.
     image:
-      image_url: /uploads/business-1.jpg
+      image_url: /uploads/solar-panels-1.jpg
       image_alt: Trees with sunshine shining through branches
     decorative_image: 
-      enabled: true
+      enabled: false
     button:
       enabled: false
       button_url:
@@ -89,16 +81,16 @@ content_blocks:
     background_color: black
   - _bookshop_name: cta
     heading: >-
-      Shape the Future of Energy with Us
+      Embrace the Future of Sustainable Energy
     body: >-
-      At Essentia, we believe in the power of innovation and collaboration. Join a team of forward-thinkers, driven by the mission to revolutionize energy consumption and sustainability. If you’re passionate about making a difference, we want you on board.
+      Schedule a demo with our experts and witness the remarkable potential of our clean energy solutions. Let's embark on this transformative journey together and make the world a cleaner, greener place. Take the first step towards a brighter, more sustainable future.
     image:
-      image_url: /uploads/five-people-on-laptops-working-together-1.jpg
+      image_url: /uploads/business-with-solar-panels-in-field-1.jpg
       image_alt: Five people working on laptops at a shared desk
     button:
       enabled: true
-      button_url: /apply-now/
-      button_text: Apply Now
+      button_url: /schedule-demo/
+      button_text: Schedule Demo
       open_in_new_tab: false
     background_color: white
 ---
