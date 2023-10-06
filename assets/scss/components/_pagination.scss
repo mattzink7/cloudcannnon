@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4rem;
+  margin-top:4rem;
 
   @include breakpoint(md) {
     justify-content: center;
@@ -39,11 +39,11 @@
 
   svg {
     stroke: $white;
-    width: $ic-200;
-    height: $ic-200;
+    inline-size: $ic-200;
+    block-size: $ic-200;
     transition: $transition;
     position: relative;
-    top: -1px;
+    inset-block-start: -1px;
   }
 }
 

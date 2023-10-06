@@ -22,14 +22,14 @@ details > summary {
 details > summary:before {
     content: '';
     display: inline-block;
-    width: 0;
-    height: 0;
+    inline-size: 0;
+    block-size: 0;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-top: 7px solid $white;
     position: absolute;
-    bottom: 10px;
-    right: 0;
+    inset-block-end: 10px;
+    inset-inline-end: 0;
     transition: transform $transition;
 }
   

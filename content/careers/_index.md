@@ -20,8 +20,9 @@ content_blocks:
       image_url: /uploads/five-people-on-laptops-working-together-1.jpg
       image_alt: Five people working on laptops at a shared desk
     button:
-      button_url: 
-      button_text:
+      enabled: true
+      button_url: /apply-now/
+      button_text: Apply Now
       open_in_new_tab: false
   - _bookshop_name: media-text
     heading: Why Work With Us?

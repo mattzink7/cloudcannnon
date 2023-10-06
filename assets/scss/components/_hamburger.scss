@@ -36,23 +36,23 @@
 }
 
 .hamburger-box {
-  width: 35px;
-  height: 20px;
+  inline-size: 35px;
+  block-size: 20px;
   display: inline-block;
   position: relative;
 }
 
 .hamburger-inner {
   display: block;
-  top: 50%;
-  margin-top: -2px;
+  inset-block-start: 50%;
+  margin-top:-2px;
 }
 
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-  width: 35px;
-  height: 4px;
+  inline-size: 35px;
+  block-size: 4px;
   background-color: $primary-color;
   border-radius: 4px;
   position: absolute;
@@ -68,28 +68,28 @@
 }
 
 .hamburger-inner::before {
-  top: -10px;
+  inset-block-start: -10px;
 }
 
 .hamburger-inner::after {
-  bottom: -10px;
+  inset-block-end: -10px;
 }
 /*
 * Slider
 */
 .hamburger--slider .hamburger-inner {
-  top: 2px;
+  inset-block-start: 2px;
 }
 
 .hamburger--slider .hamburger-inner::before {
-  top: 10px;
+  inset-block-start: 10px;
   transition-property: transform, opacity;
   transition-timing-function: ease;
   transition-duration: 0.15s;
 }
 
 .hamburger--slider .hamburger-inner::after {
-  top: 20px;
+  inset-block-start: 20px;
 }
 
 .hamburger--slider.is-active .hamburger-inner {

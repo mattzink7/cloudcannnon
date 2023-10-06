@@ -28,10 +28,10 @@
 .contact-form__form-group select {
   border: 1px solid $black;
   border-radius: $radius;
-  width: 100%;
+  inline-size: 100%;
   padding: $ic-100 $ic-200;
   margin-bottom: $ic-100;
-  height: $ic-700;
+  block-size: $ic-700;
 
   &:focus {
     outline: 2px solid $primary-color;
@@ -39,7 +39,7 @@
 }
 
 .contact-form__form-group textarea {
-  height: $ic-1000;
+  block-size: $ic-1000;
 }
 
 form.hidden {

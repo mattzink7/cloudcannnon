@@ -1,8 +1,8 @@
 .testimonial--full .testimonial__image img {
-    width: 75px;
-    height: 75px;
+    inline-size: 75px;
+    block-size: 75px;
     object-fit: cover;
     border: 5px solid $primary-color;
     border-radius: 50%;
-    margin: 0 auto;
+    margin-inline: auto;
 }

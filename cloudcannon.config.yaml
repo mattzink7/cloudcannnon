@@ -6,18 +6,24 @@ collections_config:
     _enabled_editors:
       - content
       - visual
-  careers:
-    add_options:
-      - name: Add New Job Post
-    schemas:
-      default:
-        path: schemas/careers.md
   blog:
     add_options:
       - name: Add A New Blog Post
     schemas:
       default:
         path: schemas/blog.md
+  careers:
+    add_options:
+      - name: Add New Job Post
+    schemas:
+      default:
+        path: schemas/careers.md
+  about:
+    add_options:
+      - name: Add New Team Member
+    schemas:
+      default:
+        path: schemas/staff.md
 
 _inputs:
   menu:
@@ -53,12 +59,6 @@ _inputs:
         - image/svg+xml
   heading:
     type: text
-  url:
-    type: text
-    comment: Set a custom URL for your page. ex. /our-team/first-m-last/
-  video:
-    type: text
-    comment: Please reach out to Insight Creative, Inc. if you need help changing a video.
   background_color:
     type: select
     comment: Choose between black, gray, or white as a background color
@@ -84,12 +84,12 @@ _inputs:
         - right
   body:
     type: markdown
+  cta.body:
+    type: markdown
   button.button_url:
     type: url
   hero.button_url:
     type: url
-  cta.body:
-    type: markdown
 
 _snippets:
   responsive_image:

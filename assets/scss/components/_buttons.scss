@@ -10,7 +10,7 @@
   padding: $ic-100 $ic-400;
   text-decoration: none;
   transition: $transition;
-  width: max-content;
+  inline-size: max-content;
   border-radius: $radius;
 
   @include breakpoint(sm) {
@@ -25,10 +25,10 @@
   &::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    inset-block-end: 0;
     z-index: -1;
     background-size: 300% 100%;
     border-radius: $radius;
@@ -74,11 +74,11 @@ button {
 
   svg {
     fill: $primary-color;
-    width: $ic-400;
-    height: $ic-400;
+    inline-size: $ic-400;
+    block-size: $ic-400;
     margin-right: $ic-400;
     position: relative;
-    top: -1px;
+    inset-block-start: -1px;
   }
 
   &:hover,

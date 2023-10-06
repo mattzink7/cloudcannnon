@@ -7,11 +7,11 @@
 }
 
 .media-text-block--text-right .decorative-image__circles {
-    left: -50px;
+    inset-inline-start: -50px;
 }
 
 .media-text-block--text-left .decorative-image__circles {
-    right: -50px;
+    inset-inline-end: -50px;
 }
 
 .page-clean-energy-home .media-text-block--text-right,
@@ -35,15 +35,15 @@
 }
 
 .page-clean-energy-home .media-text-block--text-right::after {
-    top: 0;
-    left: 0;
+    inset-block-start: 0;
+    inset-inline-start: 0;
 }
 
 .page-clean-energy-home .media-text-block--text-left::after {
-    top: 55%;
-    right: 0;
+    inset-block-start: 55%;
+    inset-inline-end: 0;
 
     @include breakpoint(md) {
-        top: 0;
+        inset-block-start: 0;
     }
 }

@@ -1,6 +1,6 @@
 .toc {
     padding-block: $ic-200;
-    max-width: none;
+    max-inline-size: none;
     border: none;
     border-radius: 0;
 }
@@ -11,7 +11,7 @@
 
 .toc__summary,
 .toc__list {
-    max-width: 650px;
+    max-inline-size: 650px;
 }
 
 .toc__list {

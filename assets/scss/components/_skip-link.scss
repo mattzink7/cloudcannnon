@@ -1,7 +1,7 @@
 .screen-reader-skip-to-content {
   position: absolute;
-  left: 6px;
-  top: 7px;
+  inset-inline-start: 6px;
+  inset-block-start: 7px;
   background: $primary-color;
   color: $white !important;
   padding: 20px;
@@ -12,12 +12,12 @@
   &:not(:focus) {
     border: 0;
     clip: rect(0 0 0 0);
-    height: auto;
+    block-size: auto;
     margin: 0;
     overflow: hidden;
     padding: 0;
     position: absolute;
-    width: 1px;
+    inline-size: 1px;
     white-space: nowrap;
   }
 }

@@ -24,41 +24,47 @@ h6 {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.65em;
-  max-width: 32ch;
+  max-inline-size: 32ch;
   text-wrap: balance;
 }
 
 .max-80 {
-  max-width: $measure;
+  max-inline-size: $measure;
 }
 
 h1,
 .h1 {
+  font-size: $ic-700;
   font-size: clamp($ic-400, 4vw, $ic-700);
 }
 
 h2,
 .h2 {
+  font-size: $ic-500;
   font-size: clamp($ic-300, 4vw, $ic-500);
 }
 
 h3,
 .h3 {
+  font-size: $ic-400;
   font-size: clamp($ic-300, 4vw, $ic-400);
 }
 
 h4,
 .h4 {
+  font-size: $ic-400;
   font-size: clamp($ic-200, 4vw, $ic-400);
 }
 
 h5,
 .h5 {
+  font-size: $ic-300;
   font-size: clamp($ic-200, 4vw, $ic-300);
 }
 
 h6,
 .h6 {
+  font-size: $ic-200;
   font-size: clamp($ic-100, 4vw, $ic-200);
 }
 
@@ -177,5 +183,5 @@ address {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
-  max-width: none;
+  max-inline-size: none;
 }

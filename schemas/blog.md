@@ -1,12 +1,12 @@
 ---
-title:
-draft: true
-url:
+title: ""
 seo:
-  page_title:
-  meta_description:
+  page_title: ""
+  meta_description: ""
   featured_image:
-date: 2006-01-02
+  featured_image_alt:
+draft: false
 author:
+date:
 categories:
 ---

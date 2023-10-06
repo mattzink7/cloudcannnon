@@ -1,4 +1,5 @@
 .hero--blog h1 {
+  font-size: $ic-600;
   font-size: clamp($ic-300, 4vw, $ic-600);
 }
 
@@ -8,7 +9,7 @@
 
 .bounce-left,
 .bounce-right {
-  max-width: max-content;
+  max-inline-size: max-content;
 }
 
 .bounce-left:hover svg,

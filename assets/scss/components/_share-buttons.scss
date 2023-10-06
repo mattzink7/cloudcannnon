@@ -1,12 +1,12 @@
 .share-buttons {
   border: 1px solid $black; 
-  margin-top: $ic-300;
+  margin-top:$ic-300;
 
   @include breakpoint(md) {
     position: sticky;
-    top: 125px;
-    width: 100px;
-    margin-top: 0;
+    inset-block-start: 125px;
+    inline-size: 100px;
+    margin-top:0;
   }
 }
 
@@ -25,8 +25,8 @@
 }
 
 .share-buttons ul svg {
-  height: 25px;
-  width: auto;
+  block-size: 25px;
+  inline-size: auto;
   fill: $secondary-color;
   transition: 0.3s ease;
 }
@@ -44,5 +44,5 @@
 }
 
 .share-buttons__list-items {
-  margin-top: $ic--200;
+  margin-top:$ic--200;
 }

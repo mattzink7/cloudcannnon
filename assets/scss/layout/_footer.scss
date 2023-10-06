@@ -1,5 +1,5 @@
 .footer__logo-wrap {
-  max-width: 200px;
+  max-inline-size: 200px;
 }
 
 .footer a {
@@ -14,7 +14,7 @@
 
 .footer__nav-item {
   list-style-type: none;
-  margin-top: 0;
+  margin-top:0;
 }
 
 .footer__copyright {
@@ -45,5 +45,5 @@
 
 .footer .contact-form input {
   margin-bottom: 0;
-  height: $ic-600;
+  block-size: $ic-600;
 }

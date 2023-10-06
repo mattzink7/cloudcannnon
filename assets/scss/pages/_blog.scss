@@ -17,7 +17,7 @@
 .post__body h4,
 .post__body h5,
 .post__body h6 {
-  max-width: none;
+  max-inline-size: none;
   text-wrap: wrap;
 }
 
@@ -27,5 +27,5 @@
 .post__body ul + h3,
 .post__body ol + h2,
 .post__body ol + h3 {
-  margin-top: $ic-600;
+  margin-top:$ic-600;
 }

@@ -45,7 +45,7 @@ html {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
+  min-block-size: 100vh;
   font-family: sans-serif;
   font-size: 100%;
   line-height: 1.5;
@@ -55,7 +55,7 @@ body {
 /* Make images easier to work with */
 img {
   display: block;
-  max-width: 100%;
+  max-inline-size: 100%;
 }
 
 /* Inherit fonts for inputs and buttons */
