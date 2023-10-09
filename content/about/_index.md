@@ -83,6 +83,7 @@ content_blocks:
           world.
         text_align: start
     background_color:
+    text_align: start
   - _bookshop_name: staff-feed
     heading: Meet Our Sustainability Experts
     body: >-

@@ -7,6 +7,14 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    schemas:
+      default:
+        path: schemas/page.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
   blog:
     output: true
     icon: notes
@@ -54,6 +62,22 @@ collections_config:
     schemas:
       default:
         path: schemas/staff.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
+  services:
+    output: true
+    icon: notes
+    add_options:
+      - name: Add New Service
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+      default:
+        path: schemas/service.md
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false

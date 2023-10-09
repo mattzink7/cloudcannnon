@@ -5,6 +5,17 @@
   }
 }
 
+.post__body {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-inline-size: 70%;
+}
+
+.post__sidebar {
+  flex-basis: 15rem; 
+  flex-grow: 1;
+}
+
 .post {
   picture {
     display: block;

@@ -1,16 +1,14 @@
 {{ define "main" }}
 {{ partial "blog/blog-hero" . }}
-<section class="block" aria-label="Blog Post Content Body">
-    <div class="post wrapper-lg flex flex-column-reverse flex-row-md">
-        <div class="w-100 w-20-md">
+<article class="block max-width-none" aria-label="Blog Post Content Body">
+    <div class="post gap-md flex flex-wrap wrapper-md">
+        <div class="post__body flow">
+            {{ .Content  }}
+        </div>
+        <div class="post__sidebar">
             {{ partial "blog/share-buttons" . }}
         </div>
-        <div class="post__body w-100 w-80-md">
-            <article class="flow">
-                {{ .Content  }}
-            </article>
-        </div>
     </div>
-</section>
+</article>
 {{ partial "post-navigation" . }}
 {{ end }}

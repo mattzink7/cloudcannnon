@@ -48,6 +48,8 @@
     {{ partialCached "schema-data/local-business" . }}
     {{ if eq .RelPermalink "/about/" }}
       {{ partialCached "schema-data/about-page" . }}
+    {{ else if eq $pageSection "careers" }}
+      {{ partial "schema-data/job-posting" . }}
     {{ else if eq $pageSection "blog" }}
       {{ partial "schema-data/article" . }}
     {{ else if eq .RelPermalink "/contact/" }}

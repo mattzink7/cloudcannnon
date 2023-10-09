@@ -74,6 +74,7 @@ content_blocks:
           world.
         text_align: start
     background_color:
+    text_align:
   - _bookshop_name: careers-feed
     heading: Open Positions
     background_color: gray
@@ -123,6 +124,7 @@ content_blocks:
         body:
         text_align: center
     background_color: white
+    text_align: center
   - _bookshop_name: testimonials-slider
     heading: Kind Words From Our Team
     body: "Here's what our valued team has to say about Essentia:"
