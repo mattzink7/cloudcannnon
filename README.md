@@ -39,7 +39,7 @@ For better image/video transformations and optimizations [integrate](https://clo
 ## Development Guide
 
 ## Installation
-Install Hugo. That's it!
+Install Hugo.
 
 [Read the HUGO quickstart guide](https://gohugo.io/getting-started/quick-start/)
 
@@ -76,9 +76,6 @@ You now have a local environment up and running, start developing!
 
 Need more information about Hugo? Visit the [Hugo docs](https://gohugo.io/documentation/) or get a jump start with the great [Jamstack tutorials](https://cloudcannon.com/community/learn/) from CloudCannon.
 
-## Images
-Images can be found in static/uploads.
-
 ## Accessibility Tests
 We do our best to follow the WCAG2AA standard, and one of the ways we check that we're following the right rules is through automated tools, like [pa11y](https://github.com/pa11y/pa11y/). For more info on the rules being tested checkout the [pa11y wiki](https://github.com/pa11y/pa11y/wiki/HTML-CodeSniffer-Rules).
 
@@ -88,6 +85,9 @@ To run a web accessibility test do the following:
 * Install and run the site locally following the Install and Run instructions above. Site must be running locally to perform the scan.
 * If this is your first time running pa11y, then you'll need to run npm install -g pa11y-ci to make sure pa11y is installed.
 * In a separate terminal window, run pa11y-ci to initiate the accessibility checker.
+
+## Images
+Images can be found in static/uploads.
 
 ## Site Settings
 
