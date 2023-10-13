@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 service_type: business
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: Customizable Energy Dashboard
     body: >-
       Discover the power of real-time energy monitoring with our Customizable Energy Dashboard. Tailored to your unique needs, it provides actionable insights to drive sustainability and reduce costs.

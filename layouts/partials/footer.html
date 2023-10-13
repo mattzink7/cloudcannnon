@@ -37,7 +37,7 @@
       <div class="grid-12 grid-4-md">
         <div class="grid gap-sm">
           <div class="grid-6">
-            <h2 class="h5">Links</h2>
+            <h2 class="h5">Services</h2>
             <nav aria-label="Footer Navigation">
               <ul class="footer__nav">
                 {{ range .Site.Menus.footer }}
@@ -47,10 +47,10 @@
             </nav>
           </div>
           <div class="grid-6">
-            <h2 class="h5">Links</h2>
+            <h2 class="h5">Quick Links</h2>
             <nav aria-label="Footer Secondary Navigation">
               <ul class="footer__nav">
-                {{ range .Site.Menus.footer }}
+                {{ range .Site.Menus.footer_secondary }}
                 <li class="footer__nav-item"><a class="footer__nav-link font-size-xs" href="{{ .URL }}">{{ .Title }}</a></li>
                 {{ end }}
               </ul>

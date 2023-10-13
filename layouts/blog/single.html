@@ -1,12 +1,14 @@
 {{ define "main" }}
-{{ partial "blog/blog-hero" . }}
-<article class="block max-width-none" aria-label="Blog Post Content Body">
-    <div class="post gap-md flex flex-wrap wrapper-md">
-        <div class="post__body flow">
-            {{ .Content  }}
-        </div>
-        <div class="post__sidebar">
-            {{ partial "blog/share-buttons" . }}
+<article class="max-width-none">
+    {{ partial "blog/blog-hero" . }}
+    <div class="post block">
+        <div class="wrapper-md flex flex-wrap gap-md">
+            <div class="post__body flow">
+                {{ .Content  }}
+            </div>
+            <div class="post__sidebar">
+                {{ partial "blog/share-buttons" . }}
+            </div>
         </div>
     </div>
 </article>

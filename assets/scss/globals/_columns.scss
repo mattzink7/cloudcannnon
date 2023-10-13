@@ -10,52 +10,30 @@
     }
 }
 
+.columns-two-thirds-left,
 .columns-two-thirds-right {
     display: flex;
     flex-wrap: wrap;
-
-    @include breakpoint(sm) {
-        flex-wrap: nowrap;
-    }
-
-    .col:nth-of-type(1) {
-        flex-basis: 100%;
-
-        @include breakpoint(sm) {
-            flex-basis: 33.33%;
-        }
-    }
-
-    .col:nth-of-type(2) {
-        flex-basis: 100%;
-
-        @include breakpoint(sm) {
-            flex-basis: 66.66%;
-        }
-    }
 }
 
-.columns-two-thirds-left {
-    display: flex;
-    flex-wrap: wrap;
+.columns-two-thirds-left .col:nth-of-type(1) {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
+}
 
-    @include breakpoint(sm) {
-        flex-wrap: nowrap;
-    }
+.columns-two-thirds-left .col:nth-of-type(2) {
+    flex-grow: 1;
+    flex-basis: 30rem;
+}
 
-    .col:nth-of-type(1) {
-        flex-basis: 100%;
+.columns-two-thirds-right .col:nth-of-type(1) {
+    flex-grow: 1;
+    flex-basis: 30rem;
+}
 
-        @include breakpoint(sm) {
-            flex-basis: 66.66%;
-        }
-    }
-
-    .col:nth-of-type(2) {
-        flex-basis: 100%;
-
-        @include breakpoint(sm) {
-            flex-basis: 33.33%;
-        }
-    }
+.columns-two-thirds-right .col:nth-of-type(2) {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
 }

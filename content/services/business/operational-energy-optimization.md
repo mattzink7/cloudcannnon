@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 service_type: business
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: Operational Energy Optimization
     body: >-
       Maximize efficiency without compromising sustainability with our Operational Energy Optimization. Transform how your business consumes energy, making every watt count.

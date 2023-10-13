@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 service_type: homeowners
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: Personalized Energy Coaching
     body: >-
       Dive deep into your energy habits with Personalized Energy Coaching. Let us guide you towards sustainable practices tailored uniquely to your lifestyle.

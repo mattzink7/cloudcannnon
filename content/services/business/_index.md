@@ -3,13 +3,15 @@ title: For Business
 menu:
   main:
     parent: Services
+  footer:
+    weight: 1
 seo:
   page_title: Sustainable Analytics for Business
   meta_description:
   featured_image:
   featured_image_alt:
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: For Business
     body: >-
       In today's competitive landscape, sustainable analytics provides

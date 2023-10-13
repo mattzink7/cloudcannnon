@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 service_type: homeowners
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: Smart Home Integration
     body: >-
       Elevate your living experience with Smart Home Integration. Dive into the future where convenience meets sustainability, all under one roof.

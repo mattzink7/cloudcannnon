@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 service_type: homeowners
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: Renewable Energy Transitioning
     body: >-
       Step confidently into the future with Renewable Energy Transitioning. Let's harness the power of the sun, wind, and water to fuel your aspirations sustainably.

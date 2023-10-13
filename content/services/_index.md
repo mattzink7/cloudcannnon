@@ -3,15 +3,15 @@ title: Services
 menu:
   main:
     weight: 2
-  footer:
-    weight: 1
+  footer_secondary:
+    weight: 2
 seo:
   page_title: Sustainable Analytics for Businesses and Homeowners
   meta_description:
   featured_image:
   featured_image_alt:
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: >-
       Our Services
     body: >-

@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 service_type: homeowners
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: Home Energy Audits
     body: >-
       Empower your home with knowledge and efficiency through our Home Energy Audits. Understand your consumption, spot wastage, and embark on a greener, cost-effective journey.

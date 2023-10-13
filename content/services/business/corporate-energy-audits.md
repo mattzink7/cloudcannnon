@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 service_type: business
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: Corporate Energy Audits
     body: >-
       In today's eco-conscious business landscape, staying ahead means embracing sustainable practices. Our Corporate Energy Audit not only aids in environmental stewardship but also drives tangible financial savings.

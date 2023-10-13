@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 service_type: business
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: Green Certification Consulting
     body: >-
       Unlock the prestige and benefits of sustainability with our Green Certification Consulting. Let us guide your journey towards achieving recognized eco-friendly standards.

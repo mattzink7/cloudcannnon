@@ -3,7 +3,7 @@ title: Careers
 menu:
   main:
     weight: 4
-  footer:
+  footer_secondary:
     weight: 3
 seo:
   page_title:
@@ -11,7 +11,7 @@ seo:
   featured_image: 
   featured_image_alt:
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: >-
       Join Our Green Revolution
     body: >-

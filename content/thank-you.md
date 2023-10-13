@@ -6,7 +6,7 @@ seo:
   featured_image: /uploads/two-people-at-table-1.jpg
   featured_image_alt: Two people sitting at a table together
 content_blocks:
-  - _bookshop_name: hero-simple
+  - _bookshop_name: hero-two-column
     heading: Thank You for Contacting Us
     body: >-
       We’ll get back to you within 24 hours. In the meantime, check out some other ways we can help below.
