@@ -1,10 +1,10 @@
 # Essentia
 
-Business template for Hugo. This template has been built for editing and building with [Bookshop](https://github.com/CloudCannon/bookshop) and [CloudCannon](https://cloudcannon.com/)
+Business template for Hugo. This template has been built for editing and building with [Bookshop](https://github.com/CloudCannon/bookshop) and [CloudCannon](https://cloudcannon.com/). Built by [Insight Creative](https://insightcreative.com/).
 
-Disclaimer - This template has been heavily integrated with [CloudCannon](https://cloudcannon.com/), and therefore many features are specific to the CloudCannon platform and may not work with other hosting providers.
+**Disclaimer** - This template has been heavily integrated with [CloudCannon](https://cloudcannon.com/), and therefore many features are specific to the CloudCannon platform and may not work with other hosting providers.
 
-Disclaimer - Essentia is a template for kick starting our Hugo projects. It's not a Hugo theme. Check the theme docs for more information.
+**Disclaimer** - Essentia is a template for kick starting our Hugo projects. It's not a Hugo theme. Check the theme docs for more information.
 
 ## Features
 
@@ -21,7 +21,7 @@ Disclaimer - Essentia is a template for kick starting our Hugo projects. It's no
 * Optimised for editing in [CloudCannon](https://cloudcannon.com/)
 * SEO ready with preconfigured meta tags and schema data templates
 
-## Technologies You Should Be Familiarize Yourself With
+## Technologies You Should Familiarize Yourself With
 
 [Hugo](https://gohugo.io/) + [CloudCannon](https://cloudcannon.com/) + [Cloudinary](https://cloudinary.com/)
 
