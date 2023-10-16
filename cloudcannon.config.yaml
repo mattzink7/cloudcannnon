@@ -17,7 +17,7 @@ collections_config:
         icon: notes
   blog:
     output: true
-    icon: notes
+    icon: edit_calendar
     _editables: {}
     _inputs: {}
     _select_data: {}
@@ -37,7 +37,11 @@ collections_config:
         icon: notes
   careers:
     output: true
-    icon: notes
+    icon: cases
+    _editables: {}
+    _inputs: {}
+    _select_data: {}
+    _structures: {}
     add_options:
       - name: Add New Job Post
     disable_add: false
@@ -53,7 +57,11 @@ collections_config:
         icon: notes
   about:
     output: true
-    icon: notes
+    icon: person
+    _editables: {}
+    _inputs: {}
+    _select_data: {}
+    _structures: {}
     add_options:
       - name: Add New Team Member
     disable_add: false
@@ -69,7 +77,11 @@ collections_config:
         icon: notes
   services:
     output: true
-    icon: notes
+    icon: manage_accounts
+    _editables: {}
+    _inputs: {}
+    _select_data: {}
+    _structures: {}
     add_options:
       - name: Add New Service
     disable_add: false
