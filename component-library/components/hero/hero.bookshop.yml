@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "Hero"
   description: Hero with image grid
-  icon: auto_fix_high
+  icon: auto_awesome_mosaic
 
 # Defines the structure of this component, as well as the default values
 blueprint:

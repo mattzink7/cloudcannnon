@@ -54,7 +54,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: true
-        icon: notes
+        icon: group_add
   about:
     output: true
     icon: person
@@ -74,10 +74,10 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: true
-        icon: notes
+        icon: person_add
   services:
     output: true
-    icon: manage_accounts
+    icon: construction
     _editables: {}
     _inputs: {}
     _select_data: {}
@@ -94,7 +94,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: true
-        icon: notes
+        icon: construction
 _inputs:
   menu:
     type: auto
