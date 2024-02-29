@@ -6,6 +6,10 @@ Business template for Hugo. This template has been built for editing and buildin
 
 **Disclaimer** - Essentia is a template for kick starting our Hugo projects. It's not a Hugo theme. Check the theme docs for more information.
 
+Browse through a [live demo](https://normal-dew.cloudvent.net/).
+
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/essentia-hugo-bookshop-template)
+
 ## Features
 
 * Pre-built pages
